@@ -184,142 +184,39 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #62af65;
-  font-family: "Poppins", system-ui;
+  background-color: #f7f3de;
+  font-family: "SolaimanLipi";
   font-weight: 400;
   font-style: normal;
 }
 .logo {
   width: 15%;
-  text-align:left;
+  margin: 5px 0;
 }
 .logo img {
-  width: 100px;
+  width: 40%;
+  background-color: none;
 }
 .nev_menu {
   width: 80%;
- justify-content: center;
+}
+.nev_menu ul{
+  display: flex;
  align-items: center;
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  ul {
-    li {
-      list-style: none;
-      display: inline-block;
-      oveflow: hidden;
-
-      a {
-        display: block;
-        padding: 10px 30px;
-        font-size: 18px;
-        position: relative;
-        color: fade(rgb(255, 254, 254));
-        transform: translateX(-15%);
-        border-radius: 50px;
-        width: 130%;
-        text-align: center;
-        transition-duration: 0.8s;
-        border: 0.25px solid #6559598a;
-        box-shadow: #fffcfc;
-
-        &:hover {
-          color: rgb(0, 0, 0);
-        }
-      }
-
-      &.active {
-        a {
-          color: #ffff;
-        }
-      }
-
-      &:nth-child(1) {
-        a {
-          background-color: #96009d;
-        }
-      }
-
-      &:nth-child(2n) {
-        a {
-          background-color: #29b4b0;
-        }
-      }
-
-      &:nth-child(3n) {
-        a {
-          background-color: #ffc300;
-        }
-      }
-
-      &:nth-child(4n) {
-        a {
-          background-color: #e62d87;
-        }
-      }
-
-      &:nth-child(5n) {
-        a {
-          background-color: #c2d6c1;
-        }
-      }
-      &:nth-child(6n) {
-        a {
-          background-color: #02ff7b;
-        }
-      }
-      &:nth-child(1):hover {
-        a {
-          background-color: #fbfbfb;
-          color: #111;
-        }
-      }
-
-      &:nth-child(2n):hover {
-        a {
-          background-color: #fbfbfb;
-        }
-      }
-
-      &:nth-child(3n):hover {
-        a {
-          background-color: #fbfbfb;
-        }
-      }
-
-      &:nth-child(4n):hover {
-        a {
-          background-color: #fbfbfb;
-        }
-      }
-
-      &:nth-child(5n):hover {
-        a {
-          background-color: #fbfbfb;
-        }
-      }
-    }
-  }
-
-  /* .dot{
-		background-color: red;
-		width: 6px;
-		height: 6px;
-		position: absolute;
-		bottom: -20px;
-		left: 0;
-		border-radius: 50%;
-		transition-duration: 0.5s;
-	} */
+}
+.nev_menu ul li{
+  font-weight: 600;
+  padding: 24px 16px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  transition:.5s;
+}
+.nev_menu ul li a{
+  color: #000;
 }
 .login_button {
   width: 20%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 .login_button span{
@@ -327,23 +224,20 @@ nav {
   font-weight: 600;
   font-size: 20px;
 }
-.logi_button{
-  height: 40px;
-  position: relative;
-  padding: 7.3px 15px;
-  font-size: 16px;
-  border-radius: 10px;
-  /* background: #446084; */
-  background: #00a89c;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
-  /* color: #ffffff !important; */
-  /* border-color: #008e48 !important; */
-  transition: all .6s;
-  border: none;
-  text-transform: uppercase;
+.login_button a{
+  background-color: #ffff;
+  border-radius: 6px;
+  font-family: "SolaimanLipi";
+  line-height: normal;
+  padding: 5px 15px;
+  vertical-align: middle;
+  margin: 20px 0;
+  color: #000;
+  box-shadow: 0 .125rem .25rem #00000013;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .1s;
 }
-
 .regi_button{
   height: 40px;
   position: relative;
@@ -372,6 +266,12 @@ nav {
 /*=========================
             all Hover styling
 =============================*/
+.nev_menu ul li:hover a{
+  color: #1e643f;
+}
+.login_button a:hover{
+  color: #1e643f;
+}
 .logi_button:hover{
 background-color:#ffba00 ;
 
@@ -387,5 +287,13 @@ background-color:#ffba00 ;
     color: #111;
   }
 /*==========================
+nav stayle end
+ ============================*/
+
+/*==========================
+nav stayle end
+ ============================*/
+ 
+ /*==========================
 nav stayle end
  ============================*/
