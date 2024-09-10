@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=============================
+Comon Css
+=========================== */
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrepper {
+  width: 80%;
+  margin: 0 auto;
+}
+.container_flex {
+  display: flex;
+  align-items: center;
+}
+/*====================== 
+               all font
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "SolaimanLipi";
+  src: url(../fonts/SolaimanLipi.ttf);
+}
+
+/*==========================
+header stayle start
+ ============================*/
+header {
+  width: 100%;
+  background: #0a3b1e;
+  padding: 5px 0;
+  font-family: "SolaimanLipi";
+  margin-bottom: 0.3px;
+}
+
+.grating_section {
+  width: 20%;
+  display: inline-block;
+}
+
+.grating_section p {
+  font-size: 20px;
+  display: inline-block;
+  color: #ffff;
+}
+
+.scrolig_bar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  background: #eee;
+  border-radius: 50px;
+}
+
+.visivility {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  background: #f00;
+  color: #fff;
+  overflow: hidden;
+  /* clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%); */
+  font-size: 20px;
+  font-weight: bold;
+  /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; */
+  border-radius: 50px;
+  padding: 2px 30px 3px 20px;
+  animation: right_to_left 5.5s forwards;
+}
+
+@keyframes right_to_left {
+  0% {
+    visibility: visible;
+    right: 0%;
+  }
+
+  100% {
+    right: 90%;
+  }
+}
+
+.Fade_in_Fade_out {
+  animation: Fade_in_Fade_out 2s infinite forwards;
+  animation-delay: 6s;
+}
+
+@keyframes Fade_in_Fade_out {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+
+  /* 0% {
+   color: rgb(255, 250, 250); 
+  }
+  25%{
+    color: #000000;
+  }
+  50%{
+    color: rgb(255, 0, 38);
+  }
+  75%{
+    color: rgb(0, 255, 115);
+  }
+  100% {
+   color:#ffffff ; 
+    
+  } */
+}
+
+marquee {
+  font-size: 18px;
+}
+
+.social_icon {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  padding-top: 2px;
+}
+
+.social_icon > a > img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+/*==========================
+header stayle end
+ ============================*/
+
+/*==========================
+nav stayle start
+ ============================*/
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f7f3de;
+  font-family: "SolaimanLipi";
+  font-weight: 400;
+  font-style: normal;
+}
+.logo {
+  width: 15%;
+  margin: 5px 0;
+}
+.logo img {
+  width: 40%;
+  background-color: none;
+}
+.nev_menu {
+  width: 80%;
+}
+.nev_menu ul{
+  display: flex;
+ align-items: center;
+}
+.nev_menu ul li{
+  font-weight: 600;
+  padding: 24px 16px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  transition:.5s;
+}
+.nev_menu ul li a{
+  color: #000;
+}
+.login_button {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.login_button span{
+  padding: 0 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.login_button a{
+  background-color: #ffff;
+  border-radius: 6px;
+  font-family: "SolaimanLipi";
+  line-height: normal;
+  padding: 5px 15px;
+  vertical-align: middle;
+  margin: 20px 0;
+  color: #000;
+  box-shadow: 0 .125rem .25rem #00000013;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .1s;
+}
+.regi_button{
+  height: 40px;
+  position: relative;
+  padding: 7.3px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #00a89c;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  /* color: #fff !important; */
+  /* background-color: #008e48 !important; */
+  /* border-color: #008e48 !important; */
+  margin-left: 5px;
+  transition: all .6s;
+  border: none;
+  text-transform: uppercase;
+}
+.logi_button a{
+  color: #ffffff;
+  transition: .6s;
+}
+.regi_button a{
+  color: #ffffff;
+  transition: .6s;
+}
+/*=========================
+            all Hover styling
+=============================*/
+.nev_menu ul li:hover a{
+  color: #1e643f;
+}
+.login_button a:hover{
+  color: #1e643f;
+}
+.logi_button:hover{
+background-color:#ffba00 ;
+
+}
+.logi_button:hover a{
+  color: #111;
+}
+.regi_button:hover{
+  background-color:#ffba00 ;
+  color: #111;
+  }
+  .regi_button:hover a{
+    color: #111;
+  }
+/*==========================
+nav stayle end
+ ============================*/
+
+/*==========================
+nav stayle end
+ ============================*/
+ 
+ /*==========================
+nav stayle end
+ ============================*/
