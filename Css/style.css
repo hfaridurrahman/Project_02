@@ -188,6 +188,11 @@ nav {
   font-family: "SolaimanLipi";
   font-weight: 400;
   font-style: normal;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  box-shadow: 0 0.125rem 0.25rem #00000024 !important;
+  position: fixed;
+  z-index: 1030;
 }
 .logo {
   width: 15%;
@@ -199,24 +204,24 @@ nav {
 .nev_menu {
   width: 80%;
 }
-.nev_menu ul{
+.nev_menu ul {
   display: flex;
- align-items: center;
+  align-items: center;
 }
-.nev_menu ul li{
+.nev_menu ul li {
   font-weight: 600;
   padding: 24px 16px;
   text-transform: uppercase;
   font-size: 1.2rem;
-  transition:.5s;
+  transition: 0.5s;
 }
-.nev_menu ul li a{
+.nev_menu ul li a {
   color: #000;
 }
 .login_button {
   width: 20%;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 /* .login_button span{
   padding: 0 5px;
@@ -224,7 +229,7 @@ nav {
   font-size: 20px;
   text-transform: uppercase;
 } */
-.login_button a{
+.login_button a {
   background-color: #ffff;
   border-radius: 6px;
   font-family: "SolaimanLipi";
@@ -233,11 +238,11 @@ nav {
   vertical-align: middle;
   margin: 20px 5px;
   color: #1e643f;
-  box-shadow: 0 .125rem .25rem #00000036;
+  box-shadow: 0 0.125rem 0.25rem #00000036;
   font-weight: 600;
   /* font-size: 20px; */
   font-size: 1.3rem;
-  transition:.1s;
+  transition: 0.1s;
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
@@ -246,10 +251,10 @@ nav {
 /*=========================
             all Hover styling
 =============================*/
-.nev_menu ul li:hover a{
+.nev_menu ul li:hover a {
   color: #1e643f;
 }
-.login_button a:hover{
+.login_button a:hover {
   color: #000;
 }
 
@@ -260,7 +265,7 @@ nav stayle end
 /*==========================
 nav stayle end
  ============================*/
- 
- /*==========================
+
+/*==========================
 nav stayle end
  ============================*/
