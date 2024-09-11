@@ -191,11 +191,10 @@ nav {
 }
 .logo {
   width: 15%;
-  margin: 5px 0;
 }
 .logo img {
   width: 40%;
-  background-color: none;
+  vertical-align: middle;
 }
 .nev_menu {
   width: 80%;
