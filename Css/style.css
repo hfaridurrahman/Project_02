@@ -217,52 +217,33 @@ nav {
 .login_button {
   width: 20%;
   display: flex;
-  align-items: center;
+  align-items:center;
 }
-.login_button span{
+/* .login_button span{
   padding: 0 5px;
   font-weight: 600;
   font-size: 20px;
-}
+  text-transform: uppercase;
+} */
 .login_button a{
   background-color: #ffff;
   border-radius: 6px;
   font-family: "SolaimanLipi";
   line-height: normal;
-  padding: 5px 15px;
+  padding: 5px 16px;
   vertical-align: middle;
-  margin: 20px 0;
-  color: #000;
-  box-shadow: 0 .125rem .25rem #00000013;
+  margin: 20px 5px;
+  color: #1e643f;
+  box-shadow: 0 .125rem .25rem #00000036;
   font-weight: 600;
-  font-size: 20px;
-  transition: .1s;
+  /* font-size: 20px; */
+  font-size: 1.3rem;
+  transition:.1s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
-.regi_button{
-  height: 40px;
-  position: relative;
-  padding: 7.3px 15px;
-  font-size: 16px;
-  border-radius: 10px;
-  background: #00a89c;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
-  /* color: #fff !important; */
-  /* background-color: #008e48 !important; */
-  /* border-color: #008e48 !important; */
-  margin-left: 5px;
-  transition: all .6s;
-  border: none;
-  text-transform: uppercase;
-}
-.logi_button a{
-  color: #ffffff;
-  transition: .6s;
-}
-.regi_button a{
-  color: #ffffff;
-  transition: .6s;
-}
+
 /*=========================
             all Hover styling
 =============================*/
@@ -270,22 +251,9 @@ nav {
   color: #1e643f;
 }
 .login_button a:hover{
-  color: #1e643f;
+  color: #000;
 }
-.logi_button:hover{
-background-color:#ffba00 ;
 
-}
-.logi_button:hover a{
-  color: #111;
-}
-.regi_button:hover{
-  background-color:#ffba00 ;
-  color: #111;
-  }
-  .regi_button:hover a{
-    color: #111;
-  }
 /*==========================
 nav stayle end
  ============================*/
