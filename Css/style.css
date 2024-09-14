@@ -393,13 +393,14 @@ banner stayle end
  ============================*/
 .banner_section {
   width: 100%;
-  padding: 130px 0px 60px 0px;
+  padding: 130px 0px 0px 0px;
   background-color: #fafbfc;
 }
 .banner_text {
   width: 40%;
   vertical-align: middle;
   margin-top: 20px;
+  padding-left: 10px;
 }
 .banner_text .text_green {
   color: #00a89c;
@@ -462,12 +463,12 @@ banner stayle end
   transition: all 0.3s;
 }
 .banner_section .banner_img {
-  width: 60%;
+  width: 50%;
 }
 .banner_section .banner_img img {
   width: 100%;
   height: auto;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 .banner_text .button_L:hover {
   color: #00a89c;
@@ -480,3 +481,14 @@ banner stayle end
 /*==========================
 banner stayle end
  ============================*/
+.adsection{
+  margin-bottom: 20px;
+}
+.adsection{
+  width: 1360px;
+  height: 250px;
+  margin: 0 auto;
+  background: url(../images/uddog.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
