@@ -44,9 +44,9 @@ header {
   font-family: "SolaimanLipi";
   position: fixed;
 }
-header .scrolig_section{
+header .scrolig_section {
   background: #0a3b1e;
-  margin-bottom: .4px;
+  margin-bottom: 0.4px;
 }
 .grating_section {
   width: 20%;
@@ -210,11 +210,11 @@ nav {
   width: 18px;
   padding-left: 3.5px;
 }
-.nev_menu  ul {
+.nev_menu ul {
   display: flex;
   align-items: center;
 }
-.nev_menu ul li a{
+.nev_menu ul li a {
   font-weight: 600;
   padding: 30px 8px;
   text-transform: uppercase;
@@ -224,7 +224,7 @@ nav {
 .nev_menu ul li a {
   color: #000;
 }
-.sub_menu{
+.sub_menu {
   position: relative;
 }
 .sub_menu .overly_one {
@@ -236,27 +236,26 @@ nav {
   border-radius: 5px;
   box-shadow: 0 0.125rem 0.25rem #0000008f !important;
   visibility: hidden;
-  transition: .1s; 
+  transition: 0.1s;
   padding-bottom: 10px;
 }
-.overly_one ul{
+.overly_one ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 2px;
   list-style-type: none;
-  
 }
-.overly_one ul li{
+.overly_one ul li {
   padding: 0;
   margin: 10px 0 0 20px;
-} 
-.overly_one ul li a{
-font-weight: 600;
-text-transform: uppercase;
-font-size: 1.2rem;
-transition: 0.1s;
-padding: 0;
+}
+.overly_one ul li a {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  transition: 0.1s;
+  padding: 0;
 }
 .sub_menu .overly_two {
   position: absolute;
@@ -266,31 +265,28 @@ padding: 0;
   background-color: #f7f3de;
   border-radius: 5px;
   box-shadow: 0 0.125rem 0.25rem #0000008f !important;
-   visibility: hidden;
-  transition: .1s;
+  visibility: hidden;
+  transition: 0.1s;
   padding-bottom: 10px;
- 
 }
-.overly_two ul{
+.overly_two ul {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   row-gap: 2px;
   padding-left: 0;
- 
 }
-.overly_two ul li{
+.overly_two ul li {
   padding: 0;
   margin: 10px 0 0 20px;
-  
 }
-.overly_two ul li a{
+.overly_two ul li a {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1.2rem;
   transition: 0.1s;
   padding: 0;
-  }
+}
 .sub_menu .overly_three {
   position: absolute;
   top: 220%;
@@ -301,28 +297,27 @@ padding: 0;
   box-shadow: 0 0.125rem 0.25rem #0000008f !important;
   text-align: left;
   visibility: hidden;
-  transition: .1s;
+  transition: 0.1s;
   padding-bottom: 10px;
 }
-.overly_three ul{
+.overly_three ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 2px;
   list-style-type: none;
 }
-.overly_three ul li{
+.overly_three ul li {
   padding: 0;
   margin: 10px 0 0 20px;
-
 }
-.overly_three ul li a{
+.overly_three ul li a {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1.2rem;
   transition: 0.1s;
   padding: 0;
-  }
+}
 .login_button {
   width: 20%;
   display: flex;
@@ -362,16 +357,16 @@ padding: 0;
 /*=========================
             all Hover styling
 =============================*/
-.nev_menu ul li a:hover{
+.nev_menu ul li a:hover {
   color: #1e643f;
 }
-.sub_menu .overly_one ul li a:hover{
+.sub_menu .overly_one ul li a:hover {
   color: #2eac69;
 }
-.sub_menu .overly_two ul li a:hover{
+.sub_menu .overly_two ul li a:hover {
   color: #2eac69;
 }
-.sub_menu .overly_three ul li a:hover{
+.sub_menu .overly_three ul li a:hover {
   color: #2eac69;
 }
 .login_button a:hover {
@@ -381,13 +376,13 @@ padding: 0;
   width: 55%;
 }
 .sub_menu:hover .overly_one {
-  visibility:visible;
+  visibility: visible;
 }
 .sub_menu:hover .overly_two {
-  visibility:visible;
+  visibility: visible;
 }
 .sub_menu:hover .overly_three {
-  visibility:visible;
+  visibility: visible;
 }
 /*==========================
 nav stayle end
@@ -401,21 +396,21 @@ banner stayle end
   padding: 130px 0px 60px 0px;
   background-color: #fafbfc;
 }
-.banner_text{
+.banner_text {
   width: 40%;
- vertical-align: middle;
- margin-top: 30px;
+  vertical-align: middle;
+  margin-top: 20px;
 }
-.banner_text .text_green{
-  color: #00A89C;
+.banner_text .text_green {
+  color: #00a89c;
 }
-.banner_text h1{
+.banner_text h1 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.2em;
 }
-.banner_text h2{
+.banner_text h2 {
   padding-top: 8px;
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 30px;
@@ -425,7 +420,7 @@ banner stayle end
   width: 500px;
 }
 
-.banner_text p{
+.banner_text p {
   padding-top: 12px;
   font-family: "SolaimanLipi", Sans-serif;
   font-size: 25px;
@@ -433,56 +428,54 @@ banner stayle end
   line-height: 1.2em;
   width: 500px;
 }
-.banner_button{
-  padding-top:30px;
- display: flex;
+.banner_button {
+  padding-top: 20px;
+  display: flex;
   column-gap: 20px;
 }
-.banner_text .button_L{
+.banner_text .button_L {
   display: inline-block;
-  background-color:#00a89c;
-  border:1px solid #00a89c;
+  background-color: #00a89c;
+  border: 1px solid #00a89c;
   color: #fff;
   line-height: 1;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   border-radius: 4px 4px 4px 4px;
   padding: 15px 30px 15px 30px;
   box-shadow: none;
   text-align: center;
-  transition: all .3s;
-
+  transition: all 0.3s;
 }
-.banner_text .button_R{
+.banner_text .button_R {
   display: inline-block;
   background-color: #fff;
-  border:1px solid #00a89c;
-  color:#00a89c ;
+  border: 1px solid #00a89c;
+  color: #00a89c;
   line-height: 1;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   border-radius: 4px 4px 4px 4px;
   padding: 15px 30px 15px 30px;
   box-shadow: none;
   text-align: center;
-  transition: all .3s;
-
+  transition: all 0.3s;
 }
-.banner_section .banner_img{
+.banner_section .banner_img {
   width: 60%;
 }
-.banner_section .banner_img img{
-  width:100% ;
+.banner_section .banner_img img {
+  width: 100%;
   height: auto;
   margin-left: 15%;
 }
-.banner_text .button_L:hover{
-  color:#00a89c;
+.banner_text .button_L:hover {
+  color: #00a89c;
   background-color: #02010100;
 }
-.banner_text .button_R:hover{
+.banner_text .button_R:hover {
   color: #fff;
-  background-color:#00a89c;
+  background-color: #00a89c;
 }
 /*==========================
 banner stayle end
