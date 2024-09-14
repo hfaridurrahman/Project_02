@@ -399,10 +399,13 @@ banner stayle end
 .banner_section {
   width: 100%;
   padding: 130px 0px 60px 0px;
+  background-color: #fafbfc;
 }
 .banner_text{
   width: 40%;
  vertical-align: middle;
+ position: relative;
+ margin-top:10%;
 }
 .banner_text .text_green{
   color: #00A89C;
@@ -429,6 +432,45 @@ banner stayle end
   font-weight: 400;
   line-height: 1.2em;
 }
+.banner_button{
+  padding-top:30px ;
+}
+.banner_text .button_L{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: inline-block;
+  background-color:#00a89c;
+  border:1px solid #00a89c;
+  color: #fff;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 30px 15px 30px;
+  box-shadow: none;
+  text-align: center;
+  transition: all .3s;
+
+}
+.banner_text .button_R{
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  display: inline-block;
+  background-color: #fff;
+  border:1px solid #00a89c;
+  color:#00a89c ;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 30px 15px 30px;
+  box-shadow: none;
+  text-align: center;
+  transition: all .3s;
+
+}
 .banner_section .banner_img{
   width: 60%;
 }
@@ -436,6 +478,14 @@ banner stayle end
   width:100% ;
   height: auto;
   margin-left: 15%;
+}
+.banner_text .button_L:hover{
+  color:#00a89c;
+  background-color: #02010100;
+}
+.banner_text .button_R:hover{
+  color: #fff;
+  background-color:#00a89c;
 }
 /*==========================
 banner stayle end
