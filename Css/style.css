@@ -40,12 +40,14 @@ header stayle start
  ============================*/
 header {
   width: 100%;
-  background: #0a3b1e;
-  padding: 5px 0;
+  padding: 2px 0;
   font-family: "SolaimanLipi";
-  margin-bottom: 0.3px;
+  position: fixed;
 }
-
+header .scrolig_section{
+  background: #0a3b1e;
+  margin-bottom: .4px;
+}
 .grating_section {
   width: 20%;
   display: inline-block;
@@ -192,15 +194,13 @@ nav {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
   box-shadow: 0 0.125rem 0.25rem #00000024 !important;
-  position: fixed;
-  z-index: 1030;
 }
 .logo {
   width: 15%;
   text-align: center;
 }
 .logo img {
-  width: 40%;
+  width: 40px;
   vertical-align: middle;
 }
 .nev_menu {
@@ -397,8 +397,46 @@ nav stayle end
 banner stayle end
  ============================*/
 .banner_section {
+  width: 100%;
+  padding: 130px 0px 60px 0px;
+}
+.banner_text{
+  width: 40%;
+ vertical-align: middle;
+}
+.banner_text .text_green{
+  color: #00A89C;
+}
+.banner_text h1{
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.banner_text h2{
+  padding-top: 10px;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #e244b3;
 }
 
+.banner_text p{
+  padding-top: 20px;
+  font-family: "SolaimanLipi", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+.banner_section .banner_img{
+  width: 60%;
+}
+.banner_section .banner_img img{
+  width:100% ;
+  height: auto;
+  margin-left: 15%;
+}
 /*==========================
 banner stayle end
  ============================*/
