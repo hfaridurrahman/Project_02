@@ -404,41 +404,41 @@ banner stayle end
 .banner_text{
   width: 40%;
  vertical-align: middle;
- position: relative;
- margin-top:10%;
+ margin-top: 30px;
 }
 .banner_text .text_green{
   color: #00A89C;
 }
 .banner_text h1{
   font-family: "Hind Siliguri", Sans-serif;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2em;
 }
 .banner_text h2{
-  padding-top: 10px;
+  padding-top: 8px;
   font-family: "Hind Siliguri", Sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.2em;
   color: #e244b3;
+  width: 500px;
 }
 
 .banner_text p{
-  padding-top: 20px;
+  padding-top: 12px;
   font-family: "SolaimanLipi", Sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 300;
   line-height: 1.2em;
+  width: 500px;
 }
 .banner_button{
-  padding-top:30px ;
+  padding-top:30px;
+ display: flex;
+  column-gap: 20px;
 }
 .banner_text .button_L{
-  position: absolute;
-  top: 100%;
-  left: 0;
   display: inline-block;
   background-color:#00a89c;
   border:1px solid #00a89c;
@@ -454,9 +454,6 @@ banner stayle end
 
 }
 .banner_text .button_R{
-  position: absolute;
-  top: 100%;
-  left: 25%;
   display: inline-block;
   background-color: #fff;
   border:1px solid #00a89c;
