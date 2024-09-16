@@ -750,8 +750,15 @@ about us section stayling start
   margin-bottom: 3px;
   color: #192a3d;
   font-family: "Hind Siliguri", Sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
+}
+.widget-content-box p{
+  padding-top: 3px;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight:300;
+  color: #000;
 }
 
 /*============================
