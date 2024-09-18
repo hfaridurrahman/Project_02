@@ -664,7 +664,7 @@ hr.center-diamond:before {
 .button_slider p{
   display:inline-block;
   position: absolute;
-  top: 8%;
+  top: 12%;
   left: 7%;
 }
 .button_slider {
