@@ -770,16 +770,19 @@ about us section stayling start
   width: auto;
   display: inline-block;
   background-color:#00665e ;
+  color: #f8f9fa;
   border-style: none;
     border-radius: 4px 4px 4px 4px;
     padding: 15px 30px;
+     line-height: 1;
+  font-size: 18px;
+  /* color: #fff; */
+  font-weight:600;
+  transition: .3s;
 }
 
 .about_button a span{
-  line-height: 1;
-  font-size: 15px;
-  color: #fff;
-  font-weight:600;
+margin-left: 5px;
 }
 
 .about_button a img{
@@ -835,7 +838,10 @@ hover stayling
 .about_us:hover {
   box-shadow: -20px 25px 50px -5px rgba(0, 0, 0, 0.798);
 }
-
+.about_button a:hover{
+color:#00665e ;
+background-color:#bed5ec39;
+}
 .widget-content-box:hover{
  transform: scale(1.1);
  z-index: 2;
