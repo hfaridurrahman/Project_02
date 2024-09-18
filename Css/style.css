@@ -720,8 +720,6 @@ hr.center-diamond:before {
 .button_slider a:hover{
   background-color: #f8f9fa ;
  color:#00665e;
-  box-shadow: 0px 0px 3px rgb(0 0 0 / 10%), 0px 4px 20px rgb(0 0 0 / 15%);
-  -webkit-box-shadow: 0px 0px 3px rgb(0 0 0 / 10%), 0px 4px 20px rgb(0 0 0 / 15%);
 }
 .button_fixed a:hover{
   background-color: #f8f9fa ;
