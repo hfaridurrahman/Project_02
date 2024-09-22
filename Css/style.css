@@ -791,7 +791,7 @@ width: 33.33%;
   overflow: hidden;
   margin: 0 auto;
 }
-/* @keyframes sliding {
+@keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -819,7 +819,7 @@ width: 33.33%;
   100% {
     transform: translateX(-400%);
   }
-} */
+}
 .slider {
   position: relative;
   width: 100%;
