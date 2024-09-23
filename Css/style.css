@@ -861,7 +861,7 @@ border-radius: 0 2px 2px 0;
   overflow: hidden;
   margin: 0 auto;
 }
-/* @keyframes sliding {
+@keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -889,7 +889,7 @@ border-radius: 0 2px 2px 0;
   100% {
     transform: translateX(-400%);
   }
-} */
+}
 .slider {
   position: relative;
   width: 100%;
