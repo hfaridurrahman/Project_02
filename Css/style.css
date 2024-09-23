@@ -715,7 +715,7 @@ width: 33.33%;
   border: 3px solid #fff;
   position: relative;
   z-index: 4;
-  width: 15%;
+  width: 20%;
 }
 .tutor-ratings{
   display: flex;
@@ -736,16 +736,18 @@ width: 33.33%;
   font-weight: 300;
   font-size: 18px;
   color: #2c2c2c;
-  margin-left: 80px;
   
 }
 .update_price{
   font-weight: 400;
   font-size: 20px;
   color: #2c2c2c;
-  margin-left: 80px;
 }
 .update_price_section{
+  display:inline;
+  float: right;
+}
+.update_button_section{
   display:inline;
   float: left;
 }
@@ -770,14 +772,14 @@ width: 33.33%;
   font-weight: 700;
   margin:15px 0;
   color: #2c2c2c;
+  text-align: left;
 } 
 .student_delails{
-  
   width: 100%;
-  text-align: start;
+  text-align: right;
 }
 .student_delails span{
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   color: #2c2c2c;
   margin-left: 5px;
@@ -785,7 +787,7 @@ width: 33.33%;
 .fa-user{
   margin-left: 80px;
   font-weight: 700;
-  font-size: 25px;
+  text-align: right;
 }
 .curse_inrole{
   width: 100%;
@@ -793,33 +795,10 @@ width: 33.33%;
   margin-top: 10px;
   text-align: start;
 }
-/* .content_box_two {
-  text-align: center;
-}
-.content_box_two img {
-  margin-top: -28px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  position: relative;
-  z-index: 5;
-  width: 15%;
-}
-.content_box_tree{
-  text-align: center;
-}
-.content_box_tree img {
-  margin-top: -28px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  position: relative;
-  z-index: 6;
-  width: 15%;
-} */
 
 .slider_container {
   position: relative;
   width: 100%;
-  /* min-width: 50rem; */
   height: 40rem;
   display: flex;
   justify-content: flex-start;
