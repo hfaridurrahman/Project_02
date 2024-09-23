@@ -674,12 +674,6 @@ hr.center-diamond:before {
 .slide_section_bottom{
   width: 100%;
 }
-.slide_one{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 .cures_card{
 width: 33.33%;
 }
@@ -691,17 +685,31 @@ width: 33.33%;
   padding: .25rem;
 }
 
-.img_box{
+.img_box_one{
   width: 100%;
   height: 18rem;
  background: url(../images/protactive.png) no-repeat;
  background-position: center;
  background-size: cover;
 }
-.content_box_one{
+.img_box_two{
+  width: 100%;
+  height: 18rem;
+ background: url(../images/protactive.png) no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.img_box_tree{
+  width: 100%;
+  height: 18rem;
+ background: url(../images/protactive.png) no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.content_box{
   text-align: center;
 }
-.content_box_one img {
+.content_box img {
   margin-top: -28px;
   border-radius: 50%;
   border: 3px solid #fff;
@@ -714,11 +722,7 @@ width: 33.33%;
   align-items: center;
   justify-content: center;
 }
-.tutor-ratings-stars{
-  color: #ed9700;
-  margin: 0 -3px;
-  font-size: 16px;
-}
+
 .checked {
   color: orange;
   margin-left: 5px;
@@ -730,34 +734,63 @@ width: 33.33%;
 .older_price{
   text-decoration: line-through red;
   text-align: center;
-  display: inline-block;
+  margin-left: 30px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #2c2c2c;
 }
 .update_price{
-  margin-left: 100px;
-  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2c2c2c;
+  margin-left: 5px;
 }
-.button{
+.delails_card a{
   color: #f8f9fa;
   background-color: #005885;
-  padding:8px 15px;
-  border-radius: 20px;
+  padding:10px 15px;
+  border-radius: 4px;
   display: inline-block;
-  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
 }
+.delails_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+}
+.delails_card h4{
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #2c2c2c;
+} 
 .student_delails{
+  padding: 10px;
   width: 100%;
-  margin-bottom: 10px;
   text-align: start;
 }
+.student_delails span{
+  font-weight: 400;
+  font-size: 20px;
+  color: #2c2c2c;
+  margin-left: 5px;
+}
 .fa-user{
-  margin-left: 10px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 25px;
 }
 .curse_inrole{
   width: 100%;
   height: auto;
-  font-size: 16px;
+  padding: 10px;
+  text-align: start;
 }
-.content_box_two {
+/* .content_box_two {
   text-align: center;
 }
 .content_box_two img {
@@ -778,7 +811,7 @@ width: 33.33%;
   position: relative;
   z-index: 6;
   width: 15%;
-}
+} */
 
 .slider_container {
   position: relative;
