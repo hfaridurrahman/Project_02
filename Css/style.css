@@ -958,7 +958,7 @@ hr.center-diamond:before {
   padding: 20px 10px;
 }
 
-/* @keyframes sliding {
+@keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -986,7 +986,7 @@ hr.center-diamond:before {
   100% {
     transform: translateX(-400%);
   }
-} */
+}
 .slider {
   position: relative;
   width: 100%;
