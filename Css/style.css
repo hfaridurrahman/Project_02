@@ -5,6 +5,9 @@
   font-family: "SolaimanLipi";
 }
 
+body{
+  
+}
 /*=============================
 Comon Css
 =========================== */
@@ -21,13 +24,16 @@ ul {
   width: 1360px;
   margin: 0 auto;
 }
+
 .container_flex {
   display: flex;
   align-items: center;
 }
+
 .text_green {
   color: #00a89c;
 }
+
 /*====================== 
                all font
 ========================= */
@@ -37,6 +43,8 @@ ul {
   font-family: "SolaimanLipi";
   src: url(../fonts/SolaimanLipi.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /*==========================
 header stayle start
@@ -48,10 +56,12 @@ header {
   position: fixed;
   z-index: 1;
 }
+
 header .scrolig_section {
   background: #0a3b1e;
   margin-bottom: 0.4px;
 }
+
 .grating_section {
   width: 20%;
   display: inline-block;
@@ -105,6 +115,7 @@ header .scrolig_section {
 }
 
 @keyframes Fade_in_Fade_out {
+
   20%,
   24%,
   55% {
@@ -174,7 +185,7 @@ marquee {
   padding-top: 2px;
 }
 
-.social_icon > a > img {
+.social_icon>a>img {
   width: 25px;
   margin-left: 10px;
 }
@@ -199,25 +210,31 @@ nav {
   padding-bottom: 0.25rem !important;
   box-shadow: 0 0.125rem 0.25rem #00000024 !important;
 }
+
 .logo {
   width: 15%;
   text-align: center;
 }
+
 .logo img {
   width: 70px;
   vertical-align: middle;
 }
+
 .nev_menu {
   width: 85%;
 }
+
 .nev_menu img {
   width: 18px;
   padding-left: 3.5px;
 }
+
 .nev_menu ul {
   display: flex;
   align-items: center;
 }
+
 .nev_menu ul li a {
   font-weight: 600;
   padding: 30px 8px;
@@ -225,12 +242,15 @@ nav {
   font-size: 1.2rem;
   transition: 0.1s;
 }
+
 .nev_menu ul li a {
   color: #000;
 }
+
 .sub_menu {
   position: relative;
 }
+
 .sub_menu .overly_one {
   position: absolute;
   top: 220%;
@@ -243,6 +263,7 @@ nav {
   transition: 0.1s;
   padding-bottom: 10px;
 }
+
 .overly_one ul {
   display: flex;
   flex-direction: column;
@@ -250,10 +271,12 @@ nav {
   row-gap: 2px;
   list-style-type: none;
 }
+
 .overly_one ul li {
   padding: 0;
   margin: 10px 0 0 20px;
 }
+
 .overly_one ul li a {
   font-weight: 600;
   text-transform: uppercase;
@@ -261,6 +284,7 @@ nav {
   transition: 0.1s;
   padding: 0;
 }
+
 .sub_menu .overly_two {
   position: absolute;
   top: 220%;
@@ -273,6 +297,7 @@ nav {
   transition: 0.1s;
   padding-bottom: 10px;
 }
+
 .overly_two ul {
   display: flex;
   flex-direction: column;
@@ -280,10 +305,12 @@ nav {
   row-gap: 2px;
   padding-left: 0;
 }
+
 .overly_two ul li {
   padding: 0;
   margin: 10px 0 0 20px;
 }
+
 .overly_two ul li a {
   font-weight: 600;
   text-transform: uppercase;
@@ -291,6 +318,7 @@ nav {
   transition: 0.1s;
   padding: 0;
 }
+
 .sub_menu .overly_three {
   position: absolute;
   top: 220%;
@@ -304,6 +332,7 @@ nav {
   transition: 0.1s;
   padding-bottom: 10px;
 }
+
 .overly_three ul {
   display: flex;
   flex-direction: column;
@@ -311,10 +340,12 @@ nav {
   row-gap: 2px;
   list-style-type: none;
 }
+
 .overly_three ul li {
   padding: 0;
   margin: 10px 0 0 20px;
 }
+
 .overly_three ul li a {
   font-weight: 600;
   text-transform: uppercase;
@@ -322,12 +353,14 @@ nav {
   transition: 0.1s;
   padding: 0;
 }
+
 .login_button {
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 /* .login_button span{
   padding: 0 5px;
   font-weight: 600;
@@ -364,30 +397,39 @@ nav {
 .nev_menu ul li a:hover {
   color: #1e643f;
 }
+
 .sub_menu .overly_one ul li a:hover {
   color: #2eac69;
 }
+
 .sub_menu .overly_two ul li a:hover {
   color: #2eac69;
 }
+
 .sub_menu .overly_three ul li a:hover {
   color: #2eac69;
 }
+
 .login_button a:hover {
   color: #000;
 }
+
 .basket_img:hover img {
   width: 55%;
 }
+
 .sub_menu:hover .overly_one {
   visibility: visible;
 }
+
 .sub_menu:hover .overly_two {
   visibility: visible;
 }
+
 .sub_menu:hover .overly_three {
   visibility: visible;
 }
+
 /*==========================
 nav stayle end
  ============================*/
@@ -397,9 +439,10 @@ banner stayle end
  ============================*/
 .banner_section {
   width: 100%;
-  padding: 130px 0px 0px 0px;
+  padding: 130px  0px;
   background-color: #fafbfc;
 }
+
 .banner_text {
   width: 40%;
   vertical-align: middle;
@@ -413,6 +456,7 @@ banner stayle end
   font-weight: 700;
   line-height: 1.2em;
 }
+
 .banner_text h2 {
   padding-top: 8px;
   font-family: "Hind Siliguri", Sans-serif;
@@ -431,11 +475,13 @@ banner stayle end
   line-height: 1.2em;
   width: 500px;
 }
+
 .banner_button {
   padding-top: 20px;
   display: flex;
   column-gap: 20px;
 }
+
 .banner_text .button_L {
   display: inline-block;
   background-color: #00a89c;
@@ -450,6 +496,7 @@ banner stayle end
   text-align: center;
   transition: all 0.3s;
 }
+
 .banner_text .button_R {
   display: inline-block;
   background-color: #fff;
@@ -464,22 +511,27 @@ banner stayle end
   text-align: center;
   transition: all 0.3s;
 }
+
 .banner_section .banner_img {
   width: 50%;
 }
+
 .banner_section .banner_img img {
   width: 100%;
   height: auto;
   margin-left: 20%;
 }
+
 .banner_text .button_L:hover {
   color: #00a89c;
   background-color: #02010100;
 }
+
 .banner_text .button_R:hover {
   color: #fff;
   background-color: #00a89c;
 }
+
 /*==========================
 banner stayle end
  ============================*/
@@ -487,10 +539,11 @@ banner stayle end
  add saction start
 ==============================================*/
 .adsection {
-  margin: 25px 0 0 0;
+  margin-top: 60px;
   width: 100%;
   height: 250px;
 }
+
 .adsection img {
   width: 100%;
   height: auto;
@@ -505,11 +558,16 @@ banner stayle end
 ==============================================*/
 .curse_saction {
   width: 100%;
+  background-color:#e8f7f5;
+  padding-top: 10px;
+  margin-top: 60px;
 }
+
 .text_center {
   text-align: center;
-  margin: 60px  0 3rem 0;
+  margin: 60px 0 3rem 0;
 }
+
 .text_center h1 {
   color: #005885;
   font-size: 30px;
@@ -523,6 +581,7 @@ banner stayle end
   font-weight: 700 !important;
   margin-bottom: 0.5rem;
 }
+
 hr.center-diamond {
   background: #39d1b4;
   border: 0;
@@ -531,6 +590,7 @@ hr.center-diamond {
   position: relative;
   margin: 10px auto;
 }
+
 .text_center hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -557,10 +617,12 @@ hr.center-diamond:before {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
 ::after,
 ::before {
   box-sizing: border-box;
 }
+
 /*--========================================= 
   curse  saction End
 ==============================================*/
@@ -568,22 +630,25 @@ hr.center-diamond:before {
 /*--========================================= 
   slider button strart
 ==============================================*/
-.slide_section_top{ 
+.slide_section_top {
   width: 100%;
-  margin:0;
+  margin: 0;
   height: 100px;
   padding: 10px 0;
 }
-.slide_section_top .container_flex{
+
+.slide_section_top .container_flex {
   /* justify-content: space-between; */
   align-items: center;
 }
-.slide_button_section{
+
+.slide_button_section {
   width: 10%;
   height: auto;
   border: 0;
 }
-.button_slider a{
+
+.button_slider a {
   width: auto;
   display: inline-block;
   padding: 10px 18px;
@@ -602,68 +667,76 @@ hr.center-diamond:before {
  */
 }
 
-.button_slider p{
-  display:inline-block;
+.button_slider p {
+  display: inline-block;
   position: absolute;
   top: 15%;
   left: 7%;
 }
+
 .button_slider {
   position: relative;
-  width:100%;
+  width: 100%;
   height: 60px;
   display: flex;
   /* justify-content: flex-start; */
   align-items: center;
   margin: 0 auto;
   overflow: hidden;
-  
 }
-.button_meddile{
+
+.button_meddile {
   width: 60%;
-  height:60px;
+  height: 60px;
   background: rgb(0 0 0 / 2%);
   border: 0;
 }
-.button_fixed{
-  width:30%;
-  text-align:end;
-  height:60px;
+
+.button_fixed {
+  width: 30%;
+  text-align: end;
+  height: 60px;
   background: rgb(0 0 0 / 2%);
   vertical-align: middle;
 }
-.button_fixed a{
+
+.button_fixed a {
   width: auto;
   display: inline-block;
   border-style: none;
-    border-radius: 4px 4px 4px 4px;
-    padding: 10px 30px;
-    transition: all 0.3s ease 0s;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: "Hind Siliguri", Sans-serif;
-    background-color: #005885;
-    color: #f8f9fa;
-    box-shadow: 0px 15px 18px  rgb(0 91 137);
-    -webkit-box-shadow: 0px 15px 18px  rgb(0 91 137);
+  border-radius: 4px 4px 4px 4px;
+  padding: 10px 30px;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Hind Siliguri", Sans-serif;
+  background-color: #005885;
+  color: #f8f9fa;
+  box-shadow: 0px 15px 18px rgb(0 91 137);
+  -webkit-box-shadow: 0px 15px 18px rgb(0 91 137);
 }
-.button_fixed a img{
+
+.button_fixed a img {
   width: 20px;
 }
-.button_fixed a span{
+
+.button_fixed a span {
   margin-left: 5px;
 }
-                      /*hover styling*/
-.button_slider a:hover{
-  background-color: #f8f9fa ;
- color:#00665e;
- box-shadow: 0px 15px 18px  rgb(0 91 137);
-  -webkit-box-shadow: 0px 15px 18px  rgb(0 91 137);
+
+/*hover styling*/
+.button_slider a:hover {
+  background-color: #f8f9fa;
+  color: #00665e;
+  box-shadow: 0px 15px 18px rgb(0 91 137);
+  -webkit-box-shadow: 0px 15px 18px rgb(0 91 137);
 }
-.button_fixed a:hover{
-  background-color: #f8f9fa ;
- color:#00665e;
+
+.button_fixed a:hover {
+  background-color: #f8f9fa;
+  color: #00665e;
 }
+
 /*--========================================= 
     slider button end
 ==============================================*/
@@ -671,98 +744,108 @@ hr.center-diamond:before {
   cures  slider starst
 ==============================================*/
 
-.slide_section_bottom{
+.slide_section_bottom {
   width: 100%;
+  margin: 30px 0 0 0;
 }
-.cures_card{
-width: 33.33%;
+
+.cures_card {
+  width: 33.33%;
 }
-.wrepper_inner{
+
+.wrepper_inner {
   width: 90%;
-  margin:0 auto;
+  margin: 0 auto;
   border: 1px solid rgb(240, 239, 239);
   box-shadow: 2px 2px 5px rgb(236, 236, 236);
   padding: 1rem;
 }
 
-.img_box_one{
+.img_box_one {
   width: 100%;
   height: 18rem;
- background: url(../images/protactive.png) no-repeat;
- background-position: center;
- background-size: cover;
- position: relative;
+  background: url(../images/protactive.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-.img_box_one::before{
-  content:"Free";
-  top:8%;
-  left:0%;
+
+.img_box_one::before {
+  content: "Free";
+  top: 8%;
+  left: 0%;
   width: 20%;
   height: 20px;
   position: absolute;
-color: #feffff;
-font-size: 20px;
-font-weight: 600;
-line-height: normal;
-padding: 10px 0 10px 30px;
-text-align: center;
-text-transform: uppercase;
-font-family: 'Times New Roman', Times, serif;
+  color: #feffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 0 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
 }
-.img_box_one::after{
-  content:"curse";
+
+.img_box_one::after {
+  content: "curse";
   top: 20%;
   left: 0;
   width: 30%;
   height: 15%;
   position: absolute;
   background-color: #fbd95d;
-color: #26272b;
-font-size: 20px;
-font-weight: 600;
-line-height: normal;
-padding: 10px ;
-text-align: center;
-text-transform: uppercase;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-border-radius:0 2px 2px 0;
+  color: #26272b;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 0 2px 2px 0;
 }
-.img_box_two{
+
+.img_box_two {
   width: 100%;
   height: 18rem;
- background: url(../images/protactive.png) no-repeat;
- background-position: center;
- background-size: cover;
+  background: url(../images/protactive.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.img_box_tree{
+
+.img_box_tree {
   width: 100%;
   height: 18rem;
- background: url(../images/protactive.png) no-repeat;
- background-position: center;
- background-size: cover;
- position: relative;
+  background: url(../images/protactive.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-.img_box_tree::before{
-  content:"Most Popular";
-  top:2%;
+
+.img_box_tree::before {
+  content: "Most Popular";
+  top: 5%;
   left: 0;
-  width: 40%;
+  width: 45%;
   height: 15%;
   position: absolute;
-  background-color: #fb5d5d;
+  background-color: #ff5151;
   color: #feffff;
-font-size: 16px;
-font-weight: 600;
-line-height: normal;
-padding: 10px ;
-text-align: center;
-text-transform: uppercase;
-font-family:'Times New Roman', Times, serif;
-border-radius: 0 2px 2px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 0 2px 2px 0;
 }
-.content_box{
+
+.content_box {
   text-align: center;
 }
+
 .content_box img {
   margin-top: -28px;
   border-radius: 50%;
@@ -771,7 +854,8 @@ border-radius: 0 2px 2px 0;
   z-index: 4;
   width: 20%;
 }
-.tutor-ratings{
+
+.tutor-ratings {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -782,69 +866,79 @@ border-radius: 0 2px 2px 0;
   margin-left: 5px;
 }
 
-.unchecked{
+.unchecked {
   color: #000;
 }
-.older_price{
+
+.older_price {
   text-decoration: line-through red;
   font-weight: 300;
   font-size: 18px;
   color: #2c2c2c;
-  
 }
-.update_price{
+
+.update_price {
   font-weight: 600;
   font-size: 20px;
   color: #2c2c2c;
 }
-.update_price_section{
-  display:inline;
+
+.update_price_section {
+  display: inline;
   float: right;
 }
-.update_button_section{
-  display:inline;
+
+.update_button_section {
+  display: inline;
   float: left;
 }
-.delails_card a{
+
+.delails_card a {
   color: #f8f9fa;
   background-color: #005885;
-  padding:10px 25px;
+  padding: 10px 25px;
   border-radius: 4px;
   display: inline-block;
   font-size: 20px;
   font-weight: 400;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.delails_card{
+
+.delails_card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   margin-left: 20px;
 }
-.delails_card h4{
+
+.delails_card h4 {
   font-size: 25px;
   font-weight: 700;
-  margin:15px 0;
+  margin: 15px 0;
   color: #2c2c2c;
   text-align: left;
-} 
-.student_delails{
+}
+
+.student_delails {
   width: 100%;
   text-align: right;
 }
-.student_delails span{
+
+.student_delails span {
   font-weight: 600;
   font-size: 20px;
   color: #2c2c2c;
   margin-left: 5px;
 }
-.fa-user{
+
+.fa-user {
   margin-left: 80px;
   font-weight: 700;
   text-align: right;
 }
-.curse_inrole{
+
+.curse_inrole {
   width: 100%;
   height: auto;
   margin-top: 10px;
@@ -860,8 +954,11 @@ border-radius: 0 2px 2px 0;
   align-items: center;
   overflow: hidden;
   margin: 0 auto;
+  background-color: #fafbfc;
+  padding: 20px 10px;
 }
-@keyframes sliding {
+
+/* @keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -889,7 +986,7 @@ border-radius: 0 2px 2px 0;
   100% {
     transform: translateX(-400%);
   }
-}
+} */
 .slider {
   position: relative;
   width: 100%;
@@ -900,33 +997,47 @@ border-radius: 0 2px 2px 0;
   justify-content: space-between;
   animation: 20s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
 }
+
 .slide {
   position: relative;
   min-width: 100%;
   height: 100%;
 }
+
 /*============================= 
                 hover stayling
 =================================== */
-.delails_card a:hover{
+.delails_card a:hover {
   background-color: #8578001e;
   color: #000;
 }
+
 /*--========================================= 
   cures  slider end
 ==============================================*/
 /*============================
 about us section stayling start
 ===============================*/
+.about_color_spase{
+  width: 100%;
+  background-color: #e8f7f5;
+  height: 60px;
+}
+.about_section{
+  background-color: #fafbfc;
+  width: 100%;
+  padding: 60px 0;
+}
 .about_us {
   box-shadow: 0px 25px 50px -5px rgba(0, 0, 0, 0.10196078431372549);
-  margin: 10px 10px 10px 10px;
+  margin: 60px 10px 60px 10px;
   --e-column-margin-right: 10px;
   --e-column-margin-left: 10px;
-  padding:  25px 50px;
+  padding: 25px 50px;
   background-color: #fafbfc;
   transition: 0.1s;
 }
+
 .about_heading {
   width: 100%;
   text-align: center;
@@ -934,6 +1045,7 @@ about us section stayling start
   margin-bottom: 20px;
   margin-top: 0;
 }
+
 .about_heading h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 36px;
@@ -941,41 +1053,44 @@ about us section stayling start
   font-weight: 600;
   color: #192a3d;
 }
+
 .about_button {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about_button a{
+
+.about_button a {
   width: auto;
   display: inline-block;
-  background-color:#00665e ;
+  background-color: #00665e;
   color: #f8f9fa;
   border-style: none;
-    border-radius: 4px 4px 4px 4px;
-    padding: 15px 30px;
-     line-height: 1;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 30px;
+  line-height: 1;
   font-size: 18px;
   /* color: #fff; */
-  font-weight:600;
-  transition: .3s;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
-.about_button a span{
-margin-left: 5px;
+.about_button a span {
+  margin-left: 5px;
 }
 
-.about_button a img{
+.about_button a img {
   width: 20px;
 }
-.widget-content-box{
+
+.widget-content-box {
   width: 33.333%;
   padding: 25px;
   border: 1px solid #000;
   width: 100%;
   padding: 15px;
-  background-color: #FFFFFF54;
+  background-color: #ffffff54;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #00665e;
@@ -983,21 +1098,24 @@ margin-left: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.28);
   background-color: #ffffff54;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.about_us .container_flex{
+.about_us .container_flex {
   column-gap: 30px;
   margin-bottom: 30px;
 }
+
 .widget-content-box figure {
   width: 60px;
   margin-top: 15px;
   display: inline-block;
 }
+
 .widget-content-box img {
   width: 100%;
 }
+
 .widget-content-box h3 {
   margin-bottom: 3px;
   color: #192a3d;
@@ -1005,13 +1123,15 @@ margin-left: 5px;
   font-size: 25px;
   font-weight: 600;
 }
-.widget-content-box p{
+
+.widget-content-box p {
   padding-top: 3px;
   font-size: 18px;
   line-height: 1em;
-  font-weight:300;
+  font-weight: 300;
   color: #000;
 }
+
 /*============================
 hover stayling 
 ===============================*/
@@ -1019,15 +1139,136 @@ hover stayling
 .about_us:hover {
   box-shadow: -20px 25px 50px -5px rgba(0, 0, 0, 0.798);
 }
-.about_button a:hover{
-color:#00665e ;
-background-color:#bed5ec39;
+
+.about_button a:hover {
+  color: #00665e;
+  background-color: #bed5ec39;
 }
-.widget-content-box:hover{
- transform: scale(1.1);
- z-index: 2;
+
+.widget-content-box:hover {
+  transform: scale(1.1);
+  z-index: 2;
 }
 
 /*============================
 about us section stayling end
+===============================*/
+/*============================
+Plan section stayling start
+===============================*/
+.Plan_section {
+  width: 100%;
+  height: 100vh;
+  padding: 60px 0 60px 0;
+  background-color: #eeeeee;
+  margin: 50px 0;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.Plan_h {
+  margin-bottom: 20px;
+}
+
+.Plan_h h2 {
+  color: #192a3d;
+  font-family: "Jost", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+
+.plan_p {
+  margin: 0 auto;
+  width: 60%;
+  display: inline-block;
+}
+
+.Plan_section a {
+  color: #00665e;
+  transition: .3s;
+  font-size: 20px;
+}
+
+.Plan_section p {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #222222;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+/* all Hover */
+.Plan_section a:hover {
+  color: #00a89c;
+}
+.plan_box_one{
+  width: 30%;
+  height: 400px;
+  background-color:#ffffff;
+  border-radius: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: 1px 1px 1px 1px;
+    border-color: #00665E73;
+    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 5px 5px 5px 5px;
+    --e-column-margin-right: 5px;
+    --e-column-margin-left: 5px;
+    padding: 20px 20px 10px 20px;
+
+}
+.plan_box_two{
+  width: 30%;
+  height: 400px;
+  background-color:#ffffff;
+  border-radius: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: 1px 1px 1px 1px;
+    border-color: #00665E73;
+    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 5px 5px 5px 5px;
+    --e-column-margin-right: 5px;
+    --e-column-margin-left: 5px;
+    padding: 20px 20px 10px 20px;
+  margin-left: 10px;
+}
+.plan_box_tree{
+  width: 30%;
+  height: 400px;
+  background-color:#ffffff;
+  border-radius: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: 1px 1px 1px 1px;
+    border-color: #00665E73;
+    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 5px 5px 5px 5px;
+    --e-column-margin-right: 5px;
+    --e-column-margin-left: 5px;
+    padding: 20px 20px 10px 20px;
+  margin: 0 10px ;
+}
+.plan_card{
+  margin: 30px;
+}
+
+.plan_box_four{
+  width: 30%;
+  height: 400px;
+  background-color:#ffffff;
+  border-radius: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: 1px 1px 1px 1px;
+    border-color: #00665E73;
+    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 5px 5px 5px 5px;
+    --e-column-margin-right: 5px;
+    --e-column-margin-left: 5px;
+    padding: 20px 20px 10px 20px;
+}
+/*============================
+Plan section stayling end
 ===============================*/
