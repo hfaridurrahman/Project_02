@@ -5,9 +5,9 @@
   font-family: "SolaimanLipi";
 }
 
-body{
-  
+body {
 }
+
 /*=============================
 Comon Css
 =========================== */
@@ -44,7 +44,7 @@ ul {
   src: url(../fonts/SolaimanLipi.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /*==========================
 header stayle start
@@ -115,7 +115,6 @@ header .scrolig_section {
 }
 
 @keyframes Fade_in_Fade_out {
-
   20%,
   24%,
   55% {
@@ -185,7 +184,7 @@ marquee {
   padding-top: 2px;
 }
 
-.social_icon>a>img {
+.social_icon > a > img {
   width: 25px;
   margin-left: 10px;
 }
@@ -439,7 +438,7 @@ banner stayle end
  ============================*/
 .banner_section {
   width: 100%;
-  padding: 130px  0px;
+  padding: 130px 0px;
   background-color: #fafbfc;
 }
 
@@ -558,7 +557,7 @@ banner stayle end
 ==============================================*/
 .curse_saction {
   width: 100%;
-  background-color:#e8f7f5;
+  background-color: #e8f7f5;
   padding-top: 10px;
   margin-top: 60px;
 }
@@ -962,31 +961,40 @@ hr.center-diamond:before {
   0% {
     transform: translateX(0%);
   }
+
   20% {
     transform: translateX(0%);
   }
+
   25% {
     transform: translateX(-100%);
   }
+
   45% {
     transform: translateX(-100%);
   }
+
   50% {
     transform: translateX(-200%);
   }
+
   70% {
     transform: translateX(-200%);
   }
+
   75% {
     transform: translateX(-300%);
   }
+
   95% {
     transform: translateX(-300%);
   }
+
   100% {
     transform: translateX(-400%);
   }
 }
+
 .slider {
   position: relative;
   width: 100%;
@@ -1018,16 +1026,18 @@ hr.center-diamond:before {
 /*============================
 about us section stayling start
 ===============================*/
-.about_color_spase{
+.about_color_spase {
   width: 100%;
   background-color: #e8f7f5;
   height: 60px;
 }
-.about_section{
+
+.about_section {
   background-color: #fafbfc;
   width: 100%;
   padding: 60px 0;
 }
+
 .about_us {
   box-shadow: 0px 25px 50px -5px rgba(0, 0, 0, 0.10196078431372549);
   margin: 60px 10px 60px 10px;
@@ -1158,7 +1168,7 @@ Plan section stayling start
 ===============================*/
 .Plan_section {
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding: 60px 0 60px 0;
   background-color: #eeeeee;
   margin: 50px 0;
@@ -1184,13 +1194,14 @@ Plan section stayling start
   display: inline-block;
 }
 
-.Plan_section a {
-  color: #00665e;
-  transition: .3s;
+.Plan_section .Plan_p a {
+  color: #0f746d;
+  transition: 0.3s;
   font-size: 20px;
+  font-weight:200;
 }
 
-.Plan_section p {
+.Plan_section .text {
   width: 60%;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
@@ -1202,72 +1213,118 @@ Plan section stayling start
   line-height: 26px;
 }
 
-/* all Hover */
-.Plan_section a:hover {
-  color: #00a89c;
-}
-.plan_box_one{
-  width: 30%;
-  height: 400px;
-  background-color:#ffffff;
+.plan_box {
+  width: 100%;
+  background-color: #ffffff;
   border-radius: 5px 5px 5px 5px;
-    border-style: double;
-    border-width: 1px 1px 1px 1px;
-    border-color: #00665E73;
-    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 5px 5px 5px 5px;
-    --e-column-margin-right: 5px;
-    --e-column-margin-left: 5px;
-    padding: 20px 20px 10px 20px;
+  border-style: double;
+  border-width: 1px 1px 1px 1px;
+  border-color: #00665e73;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 5px 5px 5px 5px;
+  --e-column-margin-right: 5px;
+  --e-column-margin-left: 5px;
+  padding: 20px 20px 10px 20px;
+}
 
-}
-.plan_box_two{
-  width: 30%;
-  height: 400px;
-  background-color:#ffffff;
-  border-radius: 5px 5px 5px 5px;
-    border-style: double;
-    border-width: 1px 1px 1px 1px;
-    border-color: #00665E73;
-    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 5px 5px 5px 5px;
-    --e-column-margin-right: 5px;
-    --e-column-margin-left: 5px;
-    padding: 20px 20px 10px 20px;
-  margin-left: 10px;
-}
-.plan_box_tree{
-  width: 30%;
-  height: 400px;
-  background-color:#ffffff;
-  border-radius: 5px 5px 5px 5px;
-    border-style: double;
-    border-width: 1px 1px 1px 1px;
-    border-color: #00665E73;
-    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 5px 5px 5px 5px;
-    --e-column-margin-right: 5px;
-    --e-column-margin-left: 5px;
-    padding: 20px 20px 10px 20px;
-  margin: 0 10px ;
-}
-.plan_card{
+.plan_card {
   margin: 30px;
 }
 
-.plan_box_four{
-  width: 30%;
-  height: 400px;
-  background-color:#ffffff;
-  border-radius: 5px 5px 5px 5px;
-    border-style: double;
-    border-width: 1px 1px 1px 1px;
-    border-color: #00665E73;
-    transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 5px 5px 5px 5px;
-    --e-column-margin-right: 5px;
-    --e-column-margin-left: 5px;
-    padding: 20px 20px 10px 20px;
+.flex_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+.plan_box{
+  
+}
+.plan_box_img {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  transition: .1s;
+}
+
+.plan_box_img img {
+  width: 166px;
+  transition: .2s;
+}
+
+.plan_box_text {
+  width: 80%;
+  margin: auto;
+}
+
+.plan_box_text h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #192a3d;
+  line-height: 1.5em;
+}
+.plan_box_list {
+  padding: 0;
+  padding-left: 10px;
+}
+.plan_box_list li {
+  list-style: none;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0.5em;
+  color: rgb(34, 34, 34);
+  transition: color 0.3s;
+  margin-top: 15px;
+}
+.fa-circle-check {
+  color: #00665e;
+  margin-right: 10px;
+}
+.fa-circle-xmark{
+  color: #ff0000;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.plan_last_text {
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 80px;
+  color: #00a89c;
+  font-family: "Inter", Sans-serif;
+  font-size: 24px;
+}
+.plan_button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plan_button a{
+  display: inline-block;
+  background-color: #00a89c;
+  color: #f8f9fa;
+  border-style: none;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+/* all Hover */
+.Plan_section .Plan_p a:hover {
+  color: #00a89c;
+}
+.plan_box_img img:hover{
+  transform:scale(0.8);
+  z-index: 2;
+}
+.plan_button a:hover{
+  color: #f8f9fa;
+  background-color: #00665e;
 }
 /*============================
 Plan section stayling end
