@@ -1535,4 +1535,132 @@ Testimonial Section start
 /* ========================
 Testimonial Section end 
 =========================*/
+/* ==============================================
+counter Section start
+===================================================== */
+.counter_section{
+  background-color: #e4f6f3d4;
+  width: 100%;
+  height: auto;
+  margin: 60px 0;
+  padding: 50px 0;
+}
+.counter_section_inner{
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding:30px;
+  border-radius: 8px;
+}
+.counter_heading_box{
+  padding: 10px 0;
+}
+.counter_heading_box h2{
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.counter_heading_box span{
+  color: #00A89C;
+}
+.counter_heading_text{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 8px 0;
+}
+.container_main {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.counter_item_one{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0;
+  margin-right: 20px;
+}
+.counter_item_one_inner{
+  margin-bottom: 20px;
+}
+.card_bg_one{
+  background-color: #ff7f4e17;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 25px 40px 25px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.card_bg_two{
+  background-color: #57ff5f1f;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 10px 10px 10px 10px;
+    --e-column-margin-right: 10px;
+    --e-column-margin-left: 10px;
+    padding: 25px 40px 25px 40px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.card_bg_tree{
+  background-color: #9916bd14;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 25px 40px 25px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.card_bg_four{
+  background-color: #1605ff14;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 10px 10px 10px 10px;
+    --e-column-margin-right: 10px;
+    --e-column-margin-left: 10px;
+    padding: 25px 40px 25px 40px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.counter_item_two{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  position: relative;
+}
+.intro_video{
+  width: 550px;
+  height: 300px;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+/* ==============================================
+counter Section end
+===================================================== */
 /* responsive section start */
