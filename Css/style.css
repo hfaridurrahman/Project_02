@@ -1361,23 +1361,26 @@ Testimonial Section start
   height: auto;
   padding: 40px 0 60px 0;
   background-color: #ffffff;
-  margin: 50px 0;
+  margin: 60px 0;
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   font-family: "Nunito", sans-serif;
 }
-.container{
+
+.container {
   position: relative;
   width: 100%;
   min-height: 450px;
   background-color: #ffffff;
 }
-.container .contents-wraper{
+
+.container .contents-wraper {
   width: 70%;
   min-height: inherit;
   margin: 30px auto;
   text-align: center;
 }
-.contents-wraper .header h1{
+
+.contents-wraper .header h1 {
   position: relative;
   font-size: 40px;
   /* text-transform: uppercase; */
@@ -1386,7 +1389,8 @@ Testimonial Section start
   letter-spacing: 1px;
   font-family: "Hind Siliguri", Sans-serif;
 }
-.contents-wraper .header h1::before{
+
+.contents-wraper .header h1::before {
   content: '';
   width: 30%;
   height: 5px;
@@ -1397,13 +1401,15 @@ Testimonial Section start
   transform: translateX(-50%);
   bottom: -10px;
 }
-.contents-wraper .testRow{
+
+.contents-wraper .testRow {
   width: 100%;
   min-height: inherit;
   position: relative;
   overflow: hidden;
 }
-.testRow .testItem{
+
+.testRow .testItem {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1412,11 +1418,13 @@ Testimonial Section start
   align-items: center;
   flex-direction: column;
 }
-.testRow .testItem:not(.active){
+
+.testRow .testItem:not(.active) {
   top: 0;
   left: -100%;
 }
-.testRow .testItem img{
+
+.testRow .testItem img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -1425,29 +1433,34 @@ Testimonial Section start
   outline: 2px solid #006994;
   outline-offset: 2px;
 }
-.testRow .testItem h3{
+
+.testRow .testItem h3 {
   font-size: 30px;
   font-style: italic;
   padding: 7px;
 }
-.testRow .testItem h4{
+
+.testRow .testItem h4 {
   font-style: italic;
   text-align: center;
 }
-.testRow .testItem p{
+
+.testRow .testItem p {
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 0 20px;
-  text-align:justify;
+  text-align: justify;
   font-weight: 400;
 }
-.testRow .testItem span{
+
+.testRow .testItem span {
   display: block;
   font-size: 20px;
   font-weight: 600;
 }
-.contents-wraper .indicators{
+
+.contents-wraper .indicators {
   position: absolute;
   bottom: 30px;
   left: 50%;
@@ -1455,7 +1468,8 @@ Testimonial Section start
   padding: 5px;
   cursor: pointer;
 }
-.contents-wraper .indicators .dot{
+
+.contents-wraper .indicators .dot {
   width: 15px;
   height: 15px;
   margin: 0px 3px;
@@ -1464,43 +1478,52 @@ Testimonial Section start
   display: inline-block;
   transition: background-color 0.5s ease;
 }
-.contents-wraper .indicators .active{
+
+.contents-wraper .indicators .active {
   background-color: #006994;
 }
-@keyframes next1{
-  from{
+
+@keyframes next1 {
+  from {
     left: 0%;
   }
-  to{
+
+  to {
     left: -100%;
   }
 }
-@keyframes next2{
-  from{
+
+@keyframes next2 {
+  from {
     left: 100%;
   }
-  to{
+
+  to {
     left: 0%;
   }
 }
 
-@keyframes prev1{
-  from{
+@keyframes prev1 {
+  from {
     left: 0%;
   }
-  to{
+
+  to {
     left: 100%;
   }
 }
-@keyframes prev2{
-  from{
+
+@keyframes prev2 {
+  from {
     left: -100%;
   }
-  to{
+
+  to {
     left: 0%;
   }
 }
-.coment{
+
+.coment {
   width: 100%;
   position: absolute;
   bottom: -5%;
@@ -1515,61 +1538,72 @@ Testimonial Section start
   color: #00a89c;
   font-family: "Hind Siliguri", Sans-serif;
 }
-@media(max-width: 550px){
-  .container .contents-wraper{
+
+@media(max-width: 550px) {
+  .container .contents-wraper {
     width: 90%;
   }
-  .contents-wraper .header h1{
+
+  .contents-wraper .header h1 {
     font-size: 32px;
   }
-  .testRow .testItem h3{
+
+  .testRow .testItem h3 {
     font-size: 26px;
   }
-  .testRow .testItem p{
+
+  .testRow .testItem p {
     font-size: 16px;
     letter-spacing: initial;
     line-height: initial;
   }
 
 }
+
 /* ========================
 Testimonial Section end 
 =========================*/
 /* ==============================================
 counter Section start
 ===================================================== */
-.counter_section{
+.counter_section {
   background-color: #e4f6f3d4;
   width: 100%;
   height: auto;
   margin: 60px 0;
   padding: 50px 0;
 }
-.counter_section_inner{
+
+.counter_section_inner {
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  padding:30px;
+  padding: 30px;
   border-radius: 8px;
 }
-.counter_heading_box{
+
+.counter_heading_box {
   padding: 10px 0;
 }
-.counter_heading_box h2{
+
+.counter_heading_box h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2em;
 }
-.counter_heading_box span{
+
+.counter_heading_box span {
   color: #00A89C;
 }
-.counter_heading_text{
+
+.counter_heading_text {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5em;
   padding: 8px 0;
 }
+
 .container_main {
   position: relative;
   width: 100%;
@@ -1577,20 +1611,23 @@ counter Section start
   background-color: #ffffff;
   padding: 20px;
 }
-.counter_item_one{
+
+.counter_item_one {
   width: 60%;
   display: flex;
   flex-direction: column;
   padding: 0px 0;
   margin-right: 20px;
 }
-.counter_item_one_inner{
+
+.counter_item_one_inner {
   margin-bottom: 20px;
 }
-.card_bg_one{
+
+.card_bg_one {
   background-color: #ff7f4e17;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  transition:border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 10px 10px 10px 10px;
   --e-column-margin-right: 10px;
   --e-column-margin-left: 10px;
@@ -1601,21 +1638,23 @@ counter Section start
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.card_bg_two{
+
+.card_bg_two {
   background-color: #57ff5f1f;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 10px 10px 10px 10px;
-    --e-column-margin-right: 10px;
-    --e-column-margin-left: 10px;
-    padding: 25px 40px 25px 40px;
-    border-radius: 10px;
-    position: relative;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: flex-start;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 25px 40px 25px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
-.card_bg_tree{
+
+.card_bg_tree {
   background-color: #9916bd14;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -1629,21 +1668,23 @@ counter Section start
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.card_bg_four{
+
+.card_bg_four {
   background-color: #1605ff14;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 10px 10px 10px 10px;
-    --e-column-margin-right: 10px;
-    --e-column-margin-left: 10px;
-    padding: 25px 40px 25px 40px;
-    border-radius: 10px;
-    position: relative;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: flex-start;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 25px 40px 25px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
-.counter_item_two{
+
+.counter_item_two {
   width: 40%;
   height: 100%;
   display: flex;
@@ -1653,13 +1694,15 @@ counter Section start
   padding: 50px 0;
   position: relative;
 }
-.intro_video{
+
+.intro_video {
   width: 550px;
   height: 300px;
   position: absolute;
   top: -100px;
   left: -100px;
 }
+
 /* ==============================================
 counter Section end
 ===================================================== */
@@ -1668,17 +1711,19 @@ counter Section end
 /* ==============================================
 mentor Section start
 =====================================================*/
-.mentor_section{
+.mentor_section {
   background-color: #fafbfc;
   width: 100%;
   margin: 60px 0;
 }
-.mentor_section hr{
+
+.mentor_section hr {
   border: 1px solid #00A89C;
   width: 100%;
   margin: 20px 0;
 }
-.mentor_heading_box h2{
+
+.mentor_heading_box h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -1686,7 +1731,8 @@ mentor Section start
   padding: 10px 0;
   color: #870000;
 }
-.mentor_heading_box p{
+
+.mentor_heading_box p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5em;
@@ -1694,34 +1740,39 @@ mentor Section start
   text-align: justify;
   color: #000;
 }
-  /*==============================================
+
+/*==============================================
 mentor Section end
 ===================================================== */
 /* ==============================================
 contact Section start
 =====================================================*/
-.contact_section{
+.contact_section {
   background-color: #271811;
-/* background: url(../images/cat-doodles.webp); */
+  /* background: url(../images/cat-doodles.webp); */
   width: 100%;
   margin: 60px 0;
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
-.contact_section_inner{
+
+.contact_section_inner {
   width: 100%;
   height: auto;
-  padding:30px;
+  padding: 30px;
+  margin-left: 100px;
   border-radius: 8px;
 }
-.contact_section .container_flex{
+
+.contact_section .container_flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+ column-gap: 300px;
   align-items: center;
   align-content: center;
 }
-.contact_section_inner_one h2{
+
+.contact_section_inner_one h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 600;
@@ -1729,38 +1780,127 @@ contact Section start
   padding: 10px 0;
   color: #ffffff;
 }
-.contact_section_inner_one span{
+
+.contact_section_inner_one span {
   color: #00a89c;
 }
-.contact_section_inner_one p{
+
+.contact_section_inner_one p {
   font-size: 25px;
   font-weight: 500;
   line-height: 1em;
   text-align: center;
   color: #ffffff;
 }
-.contact_section_inner_one_right a{
+
+.contact_section_inner_one_right a {
   display: inline-block;
-  background-color:#FFFF ;
+  background-color: #FFFF;
   line-height: 1em;
   text-align: center;
   padding: 15px 30px;
   font-family: "Jost", Sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
-  fill:#222222;
+  fill: #222222;
   color: #222222;
   border-style: none;
   border-radius: 2px 2px 2px 2px;
   transition: all 0.3s;
 }
-.contact_section_inner_one_right a:hover{
-  background-color:#00a89c ;
+
+.contact_section_inner_one_right a:hover {
+  background-color: #00a89c;
   color: #ffffff;
-  
 }
 
-  /*==============================================
+/*==============================================
 contact Section end
 =====================================================*/
+
+/* ==============================================
+blog Section start
+===================================================== */
+.blog_section{
+  width: 100%;
+  height: auto;
+  padding: 40px 0 60px 0;
+ margin: 60px 0;
+  margin: 50px 0;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.blog_heading{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+}
+.blog_heading h2{
+  color: #00665e;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 40px;
+}
+.blog_content_inner_one{
+  height: auto;
+  margin: 10px;
+  background-color: #00A89C00;
+  border-color: #e1e8ed;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-bottom: 0px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.blog_content_inner_one_img{
+  width: 100%;
+  height: auto;
+  padding: 2px;
+}
+.blog_content_inner_one_img img{
+  width: 100%;
+  height: auto;
+}
+.blog_content_inner_one_text{
+  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
+  text-align: justify;
+  padding:5px 10px;
+}
+
+.blog_heading h4{
+  color: #192a3d;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-family: "Hind Siliguri", Sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+.blog_content_inner_one_text a{
+  color: #0f746d;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.blog_content_inner_one_text a:hover{
+  color: #00665e;
+}
+.blog_content_inner_one_text p{
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+
+
+
+/* ==============================================
+blog Section end
+===================================================== */
+
 /* responsive section start */
