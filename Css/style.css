@@ -1604,7 +1604,7 @@ counter Section start
 .card_bg_two{
   background-color: #57ff5f1f;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin: 10px 10px 10px 10px;
     --e-column-margin-right: 10px;
     --e-column-margin-left: 10px;
@@ -1618,7 +1618,7 @@ counter Section start
 .card_bg_tree{
   background-color: #9916bd14;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 10px 10px 10px 10px;
   --e-column-margin-right: 10px;
   --e-column-margin-left: 10px;
@@ -1632,7 +1632,7 @@ counter Section start
 .card_bg_four{
   background-color: #1605ff14;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin: 10px 10px 10px 10px;
     --e-column-margin-right: 10px;
     --e-column-margin-left: 10px;
@@ -1663,4 +1663,104 @@ counter Section start
 /* ==============================================
 counter Section end
 ===================================================== */
+
+
+/* ==============================================
+mentor Section start
+=====================================================*/
+.mentor_section{
+  background-color: #fafbfc;
+  width: 100%;
+  margin: 60px 0;
+}
+.mentor_section hr{
+  border: 1px solid #00A89C;
+  width: 100%;
+  margin: 20px 0;
+}
+.mentor_heading_box h2{
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding: 10px 0;
+  color: #870000;
+}
+.mentor_heading_box p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 8px 0;
+  text-align: justify;
+  color: #000;
+}
+  /*==============================================
+mentor Section end
+===================================================== */
+/* ==============================================
+contact Section start
+=====================================================*/
+.contact_section{
+  background-color: #271811;
+/* background: url(../images/cat-doodles.webp); */
+  width: 100%;
+  margin: 60px 0;
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.contact_section_inner{
+  width: 100%;
+  height: auto;
+  padding:30px;
+  border-radius: 8px;
+}
+.contact_section .container_flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.contact_section_inner_one h2{
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  padding: 10px 0;
+  color: #ffffff;
+}
+.contact_section_inner_one span{
+  color: #00a89c;
+}
+.contact_section_inner_one p{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+.contact_section_inner_one_right a{
+  display: inline-block;
+  background-color:#FFFF ;
+  line-height: 1em;
+  text-align: center;
+  padding: 15px 30px;
+  font-family: "Jost", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  fill:#222222;
+  color: #222222;
+  border-style: none;
+  border-radius: 2px 2px 2px 2px;
+  transition: all 0.3s;
+}
+.contact_section_inner_one_right a:hover{
+  background-color:#00a89c ;
+  color: #ffffff;
+  
+}
+
+  /*==============================================
+contact Section end
+=====================================================*/
 /* responsive section start */
