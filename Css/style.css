@@ -1841,6 +1841,7 @@ blog Section start
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 700;
+  line-height: 1.2em;
 }
 .blog_content_inner_one{
   height: auto;
