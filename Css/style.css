@@ -5,7 +5,9 @@
   font-family: "SolaimanLipi";
 }
 
-body {}
+body {
+  width: 100%;
+}
 
 /*=============================
 Comon Css
@@ -20,8 +22,8 @@ ul {
 }
 
 .wrepper {
-  width: 1360px;
   margin: 0 auto;
+  max-width: 1140px
 }
 
 .container_flex {
@@ -31,6 +33,9 @@ ul {
 
 .text_green {
   color: #00a89c;
+}
+p{
+  margin: 0;
 }
 
 /*====================== 
@@ -50,30 +55,35 @@ header stayle start
  ============================*/
 header {
   width: 100%;
-  padding: 2px 0;
   font-family: "SolaimanLipi";
+  margin: 0;
   position: fixed;
+  top: 0;
   z-index: 1;
 }
 
 header .scrolig_section {
   background: #0a3b1e;
-  margin-bottom: 0.4px;
 }
 
 .grating_section {
   width: 20%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+
 }
 
 .grating_section p {
-  font-size: 20px;
-  display: inline-block;
+  font-size: 18px;
+  display:block;
   color: #ffff;
+  font-weight: 400;
+  padding:8px;
+  margin-right: 5px;
 }
 
 .scrolig_bar {
-  width: 80%;
+  width: 70%;
   display: flex;
   align-items: center;
   background: #eee;
@@ -174,7 +184,7 @@ header .scrolig_section {
 }
 
 marquee {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .social_icon {
@@ -205,31 +215,31 @@ nav {
   font-family: "SolaimanLipi";
   font-weight: 400;
   font-style: normal;
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
+  padding: 5px 0;
   box-shadow: 0 0.125rem 0.25rem #00000024 !important;
 }
 
 .logo {
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 
 .logo img {
-  width: 70px;
+  width: 80px;
   vertical-align: middle;
 }
 
 .nev_menu {
-  width: 85%;
+  width: 90%;
 }
 
 .nev_menu img {
-  width: 18px;
-  padding-left: 3.5px;
+  width: 10px;
 }
 
 .nev_menu ul {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -371,22 +381,25 @@ nav {
   border-radius: 6px;
   font-family: "SolaimanLipi";
   line-height: normal;
-  padding: 5px 16px;
+  padding: 6px 8px;
   vertical-align: middle;
-  margin: 20px 5px;
+  margin: 5px 5px;
   color: #1e643f;
   box-shadow: 0 0.125rem 0.25rem #00000036;
   font-weight: 600;
   /* font-size: 20px; */
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   transition: 0.1s;
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-
+.basket_img{
+  width: 10%;
+  display: flex;
+}
 .basket_img img {
-  width: 50%;
+  width: 45%;
   vertical-align: middle;
 }
 
@@ -432,6 +445,53 @@ nav {
 /*==========================
 nav stayle end
  ============================*/
+ /*==========================
+ search stayle start
+ ============================*/
+ .search_section{
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  background-color: #fff;
+  color: #7a7a7a;
+  border-bottom: 1px solid #000;
+  position: relative;
+ }
+ .search_area{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
+.search_area form{
+  background: #533030;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.search_area input{
+  border: 0px solid;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 0.125rem 0.25rem #00000036;
+}
+.search_area input[type="submit"]{
+  /* background: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 23%; */
+  cursor: pointer;
+  border-bottom: solid 2px #f29434;
+}
+
+
+
 
 /*==========================
 banner stayle end
@@ -440,6 +500,7 @@ banner stayle end
   width: 100%;
   padding: 130px 0px;
   background-color: #fafbfc;
+  margin-top: 20px;
 }
 
 .banner_text {
@@ -542,12 +603,10 @@ banner stayle end
   width: 100%;
   height: 250px;
 }
-
-.adsection img {
-  width: 100%;
-  height: auto;
+.btn_color{
+  background-color: #a80000;
+  color: #f30303;
 }
-
 /*--========================================= 
  add saction End
 ==============================================*/
@@ -2326,6 +2385,7 @@ footer Section strart
   color: #ffffff;
   font-size: 18px;
   font-weight:400;
+  transition: all 0.3s;
 }
 .footer_content_bottom_inner_two ul li a:hover{
   color: #00a89c;
@@ -2364,6 +2424,7 @@ footer Section strart
   color: #ffffff;
   font-size: 18px;
   font-weight:400;
+  transition: all 0.3s;
 }
 .footer_content_bottom_inner_tree ul li a:hover{
   color: #00a89c;
@@ -2393,6 +2454,7 @@ footer Section strart
   color: #ffffff;
   font-size: 18px;
   font-weight:400;
+  transition: all 0.3s;
 }
 .footer_content_bottom_inner_four ul li a:hover{
   color: #00a89c;
