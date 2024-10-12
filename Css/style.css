@@ -23,7 +23,8 @@ ul {
 
 .wrepper {
   margin: 0 auto;
-  max-width: 1066px
+  max-width: 1100px;
+  min-width: 320px;
 }
 
 .container_flex {
@@ -1345,6 +1346,7 @@ Plan section stayling start
 
 .plan_box {
   width: 100%;
+  height: 500px;
   background-color: #ffffff;
   border-radius: 5px 5px 5px 5px;
   border-style: double;
@@ -1367,8 +1369,6 @@ Plan section stayling start
   justify-content: space-between;
   justify-content: center;
 }
-
-.plan_box {}
 
 .plan_box_img {
   width: 60%;
@@ -1423,13 +1423,32 @@ Plan section stayling start
 }
 
 .plan_last_text {
-  width: 70%;
-  text-align: center;
   font-weight: 600;
-  margin-top: 80px;
+  margin: auto;
   color: #00a89c;
   font-family: "Inter", Sans-serif;
   font-size: 24px;
+}
+.plan_last_text_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.plan_last_text_box_1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  margin-bottom: 0;
+}
+.plan_last_text_box_2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .plan_button {
@@ -1721,7 +1740,6 @@ counter Section start
   line-height: 1.5em;
   padding: 8px 0;
 }
-
 .container_main {
   position: relative;
   width: 100%;
@@ -1734,12 +1752,11 @@ counter Section start
   width: 60%;
   display: flex;
   flex-direction: column;
-  padding: 0px 0;
-  margin-right: 20px;
+  padding: 0;
 }
 
 .counter_item_one_inner {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .card_bg_one {
@@ -1803,22 +1820,23 @@ counter Section start
 }
 
 .counter_item_two {
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: 50px 0;
-  position: relative;
+}
+.card-title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 8px 0;
 }
 
 .intro_video {
-  width: 550px;
-  height: 300px;
-  position: absolute;
-  top: -100px;
-  left: -100px;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
 }
 
 /* ==============================================
