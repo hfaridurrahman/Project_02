@@ -7,6 +7,7 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 /*=============================
@@ -691,9 +692,56 @@ banner stayle end
   height: auto;
 }
 
-.btn_color {
-  background-color: #a80000;
-  color: #f30303;
+.fa-caret-left {
+  color: #ff0202;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa-caret-right {
+  color: #ff0202;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2%;
+  padding: 0;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  /* opacity: .5; */
+  transition: opacity .15s ease;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
 }
 
 /*--========================================= 
@@ -1112,7 +1160,8 @@ hr.center-diamond:before {
   font-weight: 800;
   color: #2c2c2c;
 }
-.course_details_time_prerace .co_red{
+
+.course_details_time_prerace .co_red {
   font-size: 18px;
   font-weight: 600;
   color: green;
@@ -1244,7 +1293,7 @@ about us section stayling start
 .about_button a {
   width: auto;
   display: inline-block;
-  background-color: #00665e;
+  background-color: green;
   color: #f8f9fa;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
@@ -1316,8 +1365,8 @@ hover stayling
 }
 
 .about_button a:hover {
-  color: #00665e;
-  background-color: #bed5ec39;
+  color: #ffffff;
+  background-color:#000000;
 }
 
 .widget-content-box:hover {
@@ -1509,7 +1558,7 @@ Plan section stayling start
 
 .plan_button a {
   display: inline-block;
-  background-color: #00a89c;
+  background-color: green;
   color: #f8f9fa;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
@@ -1547,7 +1596,7 @@ Testimonial Section start
   height: auto;
   padding: 0;
   background-color: #ffffff;
-  margin:0;
+  margin: 0;
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   font-family: "Nunito", sans-serif;
 }
@@ -1784,7 +1833,7 @@ counter Section start
 }
 
 .counter_heading_text {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.5em;
   padding: 8px 0;
@@ -1939,66 +1988,114 @@ contact Section start
   /* background: url(../images/cat-doodles.webp); */
   width: 100%;
   margin: 60px 0;
+  padding: 10px 0;
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
 .contact_section_inner {
   width: 100%;
   height: auto;
-  padding: 30px;
+  padding: 15px 30px;
   margin-left: 100px;
   border-radius: 8px;
 }
-
+.contact_section_inner_left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+  padding-right: 80px;
+  position: relative;
+}
+.contact_section_inner_left::after{
+  width: 1%;
+  height: 80%;
+  top: 10%;
+  right: 0;
+  position: absolute;
+  content: "";
+ background-color:#00A89C;
+}
 .contact_section .container_flex {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 300px;
+  column-gap: 60px;
   align-items: center;
   align-content: center;
 }
-
-.contact_section_inner_one h2 {
+.contact_section_inner_left h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 600;
-  line-height: 50px;
-  padding: 10px 0;
+  line-height: 1.5erm;
   color: #ffffff;
 }
 
-.contact_section_inner_one span {
-  color: #00a89c;
+.contact_section_inner_left span {
+  color: #ffb700;
 }
 
-.contact_section_inner_one p {
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 1em;
-  text-align: center;
-  color: #ffffff;
-}
-
-.contact_section_inner_one_right a {
+.contact_section_inner_left a {
   display: inline-block;
   background-color: #FFFF;
   line-height: 1em;
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px 25px;
   font-family: "Jost", Sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   fill: #222222;
   color: #222222;
   border-style: none;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 8px;
   transition: all 0.3s;
 }
 
-.contact_section_inner_one_right a:hover {
+.contact_section_inner_right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+  padding-right: 80px;
+  position: relative;
+}
+.contact_section_inner_right h2 {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.5erm;
+  color: #ffffff;
+}
+
+.contact_section_inner_right span {
+  color: #ffb700;
+}
+
+.contact_section_inner_right_inner img{
+height: 47px;
+}
+.tel_jon_btn{
+  display: inline-block;
+  background-color: #20a0e1;
+  line-height: 1em;
+  text-align: center;
+  padding: 15px 25px;
+  font-size: 20px;
+  vertical-align: middle;
+  font-weight: 600;
+  fill: #222222;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.contact_section_inner_left a:hover {
   background-color: #00a89c;
   color: #ffffff;
+}
+.contact_section_inner_right_inner a:hover {
+  background-color: #00a89c;
+  color: #000000;
 }
 
 /*==============================================
@@ -2125,7 +2222,7 @@ blog Section start
 .blog_button a {
   width: auto;
   display: inline-block;
-  background-color: #00a89c;
+  background-color: green;
   color: #ffffff;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
@@ -2141,7 +2238,7 @@ blog Section start
 }
 
 .blog_button a:hover {
-  background-color: #00665e;
+  background-color: #000000;
   color: #f8f9fa;
 }
 
@@ -2167,7 +2264,7 @@ video Section start
 }
 
 .video_heading h2 {
-  color: #8dc63f;
+  color: green;
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
   font-weight: 800;
@@ -2209,6 +2306,7 @@ video Section start
 
 .video_content_inner_one_text h4 {
   color: #182d41;
+  text-align: center;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.5em;
@@ -2227,13 +2325,14 @@ video Section start
 
 .fa-calendar-days,
 .fa-user {
-  margin-right: 8px;
   color: #00665e;
-  margin-left: 0;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
 .fa-user {
-  margin-left: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .video_content_inner_one_text__btn {
@@ -2247,13 +2346,13 @@ video Section start
 .video_content_inner_one_text__btn a {
   width: 100%;
   display: inline-block;
-  background-color: #41e9dd;
-  color: #000000;
+  background-color: green;
+  color: #ffffff;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
   padding: 15px 30px;
   line-height: 1;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   /* font-family: "Hind Siliguri", Sans-serif; */
   text-align: center;
@@ -2285,13 +2384,13 @@ video Section start
 .video_button a {
   width: auto;
   display: inline-block;
-  background-color: #41e9dd;
-  color: #000000;
+  background-color:#00665e;
+  color: #f8f9fa;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
   padding: 15px 30px;
   line-height: 1;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 800;
   font-family: "Hind Siliguri", Sans-serif;
   text-align: center;
@@ -2301,8 +2400,8 @@ video Section start
 }
 
 .video_button a:hover {
-  background-color: #00665e;
-  color: #f8f9fa;
+  background-color: #41e9dd;
+  color: #000000;
 }
 
 /* ==============================================
@@ -2346,16 +2445,20 @@ footer Section strart
 .footer_content_top_inner_one {
   width: 40%;
   vertical-align: middle;
-  text-align: left;
   padding: 0 10px;
+  text-align: left;
 }
 
 .footer_content_top h2 {
   color: #ffffff;
   font-family: "Hind Siliguri", Sans-serif;
-  font-size: 31px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 1.8em;
+  line-height: 0.5erm;
+  vertical-align: middle;
+  margin-left: 60px;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .footer_content_top_inner_one_input {
@@ -2609,6 +2712,17 @@ footer Section strart
 .footer_content_bottom_inner_four ul li a:hover {
   color: #00a89c;
 }
+/* payment section start */
+.payment_section{
+  width: 100%;
+  height: auto;
+}
+.payment_section img{
+  width: 100%;
+  height: 50px;
+}
+/* payment section end */
+
 
 .copyright_section {
   width: 100%;
