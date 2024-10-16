@@ -102,6 +102,7 @@ p {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
 /*==========================
 header stayle start
@@ -1024,9 +1025,10 @@ hr.center-diamond:before {
 .img_box_one {
   width: 100%;
   height: 18rem;
-  background: url(../images/adonik_poddotite_quran\ \(1280\ x\ 905\ px\)-1.png) no-repeat;
+  background: url(../images/adonik_poddotite_quran\ \(1280\ x\ 905\ px\)-1.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   offset-position: center;
 }
@@ -1035,7 +1037,7 @@ hr.center-diamond:before {
 .img_box_two {
   width: 100%;
   height: 18rem;
-  background: url(../images/কুরআনি\ আরবি\ শিখি\ 128090.png) no-repeat;
+  background: url(../images/কুরআনি\ আরবি\ শিখি\ \ \(1250\ x\ 905\ px\)-1.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -1043,7 +1045,31 @@ hr.center-diamond:before {
 .img_box_tree {
   width: 100%;
   height: 18rem;
-  background: url(../images/protactive.png) no-repeat;
+  background: url(../images/কুরআন\ অনুধাবন\ ওয়েবিনার\ সিরিজ\ পোস্টার.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_four {
+  width: 100%;
+  height: 18rem;
+  background: url(../images/সহজে\ শিখি\ তাজভীদুল\ কুরআন.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_five {
+  width: 100%;
+  height: 18rem;
+  background: url(../images/অর্থ\ সহ\ নামাজ\ শিখি.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_six {
+  width: 100%;
+  height: 18rem;
+  background: url(../images/বি\ প্রোডাক্টিভ\ ফ্রম\ ফজর.png) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1214,15 +1240,16 @@ hr.center-diamond:before {
 .student_details_user {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
-.fa-user {
-  margin-left: 75px;
+.slide_section_bottom .fa-user {
+  margin-left: 45px;
   font-weight: 700;
   font-size: 20px;
+  margin-right: 10px;
 }
-
+  
 .curse_inrole {
   width: 100%;
   height: auto;
@@ -1395,7 +1422,10 @@ Plan section stayling start
 
 .Plan_heading h2 {
   color: #00665e;
-  font-family: "Jost", Sans-serif;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
@@ -1430,13 +1460,16 @@ Plan section stayling start
 .Plan_section .text {
   width: 60%;
   margin: 0 auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
   color: #222222;
-  font-size: 17px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .plan_box {
@@ -1497,7 +1530,10 @@ Plan section stayling start
 
 .plan_box_list li {
   list-style: none;
-  font-family: "Inter", Sans-serif;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 0.5em;
@@ -1521,10 +1557,12 @@ Plan section stayling start
   font-weight: 600;
   margin: auto;
   color: #00a89c;
-  font-family: "Inter", Sans-serif;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
   font-size: 24px;
 }
-
 .plan_last_text_box {
   width: 100%;
   display: flex;
@@ -1969,7 +2007,7 @@ mentor Section start
 }
 
 .mentor_heading_box p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.5em;
   padding: 8px 0;
@@ -2140,9 +2178,9 @@ blog Section start
 
 .blog_content_inner_one {
   width: 100%;
-  height: auto;
+  height: 420px;
   margin: 10px;
-  background-color: #00A89C00;
+  background-color: #ffffff;
   border-color: #e1e8ed;
   border-width: 1px;
   border-style: solid;
@@ -2169,35 +2207,77 @@ blog Section start
   margin: 0 auto;
   width: 100%;
   display: inline-block;
-  text-align: justify;
   padding: 5px 10px;
   column-gap: 5px;
   background-color: #ffffff;
   border-radius: 0 0 10px 10px;
+  position: relative;
 }
 
 .blog_heading h4 {
-  color: #192a3d;
+  color: #000000;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.5em;
   font-family: "Hind Siliguri", Sans-serif;
   margin-top: 5px;
   margin-bottom: 0;
-  letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02 em;
 }
 
-.blog_content_inner_one_text a {
+.blog_content_inner_one_text  {
   color: #0f746d;
   transition: 0.3s;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5em;
   float: right;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
-
+.blog_content_inner_one_text .blog_button_one {
+  color: #0f746d;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5em;
+  float: right;
+  position: absolute;
+  bottom: -76px;
+  right: 35px;
+}
+.blog_button_two{
+  color: #0f746d;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5em;
+  float: right;
+  position: absolute;
+  bottom: -48px;
+  right: 30px;
+}
+.blog_button_tree{
+  color: #0f746d;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5em;
+  float: right;
+  position: absolute;
+  bottom: -26px;
+  right: 30px;
+}
+.blog_button_four{
+  color: #0f746d;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5em;
+  float: right;
+  position: absolute;
+  bottom: -75px;
+  right: 30px;
+}
 .blog_content_inner_one_text a:hover {
   color: #00665e;
 }
@@ -2323,16 +2403,18 @@ video Section start
   margin-bottom: 0;
 }
 
-.fa-calendar-days,
-.fa-user {
+.fa-calendar-days{
   color: #00665e;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-right: 10px;
 }
-
-.fa-user {
+.meddile{
+  margin-left: 52px;
+}
+.video_content_inner_one_text .fa-user {
   margin-left: 10px;
   margin-right: 10px;
+  color: #00665e;
 }
 
 .video_content_inner_one_text__btn {
