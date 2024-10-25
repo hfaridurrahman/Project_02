@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "SolaimanLipi";
+    src: url(../fonts/SolaimanLipi.ttf);
+}
+
+@media (max-width: 999.98px) and (min-width: 320px) {
+
+    input,
+    textarea {
+        font-size: 16px;
+        /* Or larger */
+    }
+
+    .wrepper {
+        width: 95%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .scrolig_section {
+        background: #0a3b1e;
+        padding: 3px;
+    }
+    .scrolig_bar {
+        width: 100%;
+    }
+    .social_icon {
+        display: flex;
+         width: 100%;
+        padding-top: 2px;
+    }
+    .grating_section {
+        display: none;
+    }
+    header .scrolig_section {
+        background: #0a3b1e;
+        padding: 2px;
+        width: 100%;
+    }
+
+    .visivility {
+        display: none;
+    }
+
+    marquee {
+        font-size: 18px;
+      }
+      
+      .social_icon {
+        display: flex;
+        width: 35%;
+        justify-content: center;
+        padding-top: 2px;
+      }
+      
+      .social_icon>a>img {
+        width: 15px;
+        margin-left: 3px;
+      }
+      
+
+    .nav_section {
+        width: 100%;
+    }
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .logo img {
+        width: 23px;
+        vertical-align: middle;
+        scale: 2.3;
+    }
+
+    .logo_heading {
+        display: block;
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #1e643f;
+    }
+
+    .dropdown-menu {
+        font-size: 1.2rem;
+    }
+
+    .login_btn {
+        margin-left: -35px;
+    }
+
+    .login_btn_bg {
+        padding: 2px 8px;
+    }
+
+    .basket {
+        position: relative;
+        margin-left: 45px;
+        column-gap: 8px;
+        margin-top: 5px;
+    }
+
+    /* banner section */
+    .flex_col {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .banner_img {
+        display: none;
+    }
+
+    .banner_img_f {
+        display: block;
+    }
+
+    .banner_section {
+        padding: 0;
+        margin-top: 95px;
+    }
+
+    .banner_img_f img {
+        width: 100%;
+    }
+
+    .banner_text {
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+        line-height: 1em;
+    }
+
+    .banner_text h2 {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .banner_text h2 {
+        font-size: 25px;
+        line-height: 1em;
+    }
+
+    .banner_text p {
+        padding-top: 0;
+        font-family: "SolaimanLipi", Sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.3em;
+        text-align: start;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .banner_button {
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_text .button_L {
+        line-height: 1.3em;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .banner_text .button_R {
+        line-height: 1.3em;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .adsection {
+        margin: 15px 0;
+    }
+
+    .search_section {
+        display: none;
+    }
+
+    .curse_saction {
+        padding-top: 8px;
+        margin-top: 15px;
+    }
+
+}
