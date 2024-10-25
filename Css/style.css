@@ -24,63 +24,12 @@ ul {
 
 .wrepper {
   margin: 0 auto;
-  max-width: 1100px;
-  min-width: 320px;
+  max-width: 1230px;
 }
 
 .container_flex {
   display: flex;
   align-items: center;
-}
-
-@media (min-width:576px) {
-
-  .wrepper,
-  .container-sm {
-    max-width: 540px
-  }
-}
-
-@media (min-width:768px) {
-
-  .wrepper,
-  .container-md,
-  .container-sm {
-    max-width: 720px
-  }
-}
-
-@media (min-width:992px) {
-
-  .wrepper,
-  .container-lg,
-  .container-md,
-  .container-sm {
-    max-width: 960px
-  }
-}
-
-@media (min-width:1200px) {
-
-  .wrepper,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl {
-    max-width: 1140px
-  }
-}
-
-@media (min-width:1400px) {
-
-  .wrepper,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1320px
-  }
 }
 
 .text_green {
@@ -218,23 +167,6 @@ header .scrolig_section {
       0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
-
-  /* 0% {
-   color: rgb(255, 250, 250); 
-  }
-  25%{
-    color: #000000;
-  }
-  50%{
-    color: rgb(255, 0, 38);
-  }
-  75%{
-    color: rgb(0, 255, 115);
-  }
-  100% {
-   color:#ffffff ; 
-    
-  } */
 }
 
 marquee {
@@ -261,248 +193,146 @@ header stayle end
 nav stayle start
  ============================*/
 
-nav {
+.nav_section {
   width: 100%;
-  display: flex;
-  align-items: center;
   background-color: #f7f3de;
   font-family: "SolaimanLipi";
-  font-weight: 400;
-  font-style: normal;
-  padding: 5px 0;
+  padding: 0;
+  margin: 0;
   box-shadow: 0 0.125rem 0.25rem #00000024 !important;
 }
 
-.logo {
-  width: 10%;
-  text-align: center;
-}
 
 .logo img {
-  width: 80px;
+  width: 30px;
+  scale: 1.8;
   vertical-align: middle;
 }
 
-.nev_menu {
-  width: 90%;
-  margin-left: 40px;
+.logo_heading {
+  display: none;
 }
 
-.nev_menu img {
-  width: 10px;
-}
 
-.nev_menu ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.nev_menu ul li a {
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
   font-weight: 600;
-  padding: 30px 8px;
-  text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: 0.1s;
 }
 
-.nev_menu ul li a {
-  color: #000;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #1e643f;
 }
 
-.sub_menu {
-  position: relative;
-}
-
-.sub_menu .overly_one {
-  position: absolute;
-  top: 220%;
-  left: -9%;
-  width: 150px;
-  background-color: #f7f3de;
-  border-radius: 5px;
-  box-shadow: 0 0.125rem 0.25rem #0000008f !important;
-  visibility: hidden;
-  transition: 0.1s;
-  padding-bottom: 10px;
-}
-
-.overly_one ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 2px;
-  list-style-type: none;
-}
-
-.overly_one ul li {
-  padding: 0;
-  margin: 10px 0 0 20px;
-}
-
-.overly_one ul li a {
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  clear: both;
   font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  transition: 0.1s;
-  padding: 0;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
 }
 
-.sub_menu .overly_two {
-  position: absolute;
-  top: 220%;
-  left: 10%;
-  width: 150px;
-  background-color: #f7f3de;
-  border-radius: 5px;
-  box-shadow: 0 0.125rem 0.25rem #0000008f !important;
-  visibility: hidden;
-  transition: 0.1s;
-  padding-bottom: 10px;
+.login_btn {
+  margin-left: 5px;
 }
 
-.overly_two ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 2px;
-  padding-left: 0;
-}
-
-.overly_two ul li {
-  padding: 0;
-  margin: 10px 0 0 20px;
-}
-
-.overly_two ul li a {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  transition: 0.1s;
-  padding: 0;
-}
-
-.sub_menu .overly_three {
-  position: absolute;
-  top: 220%;
-  left: 10%;
-  width: 150px;
-  background-color: #f7f3de;
-  border-radius: 5px;
-  box-shadow: 0 0.125rem 0.25rem #0000008f !important;
-  text-align: left;
-  visibility: hidden;
-  transition: 0.1s;
-  padding-bottom: 10px;
-}
-
-.overly_three ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 2px;
-  list-style-type: none;
-}
-
-.overly_three ul li {
-  padding: 0;
-  margin: 10px 0 0 20px;
-}
-
-.overly_three ul li a {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  transition: 0.1s;
-  padding: 0;
-}
-
-.login_button {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-}
-
-/* .login_button span{
-  padding: 0 5px;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-} */
-.login_button a {
+.login_btn_bg {
   background-color: #ffff;
   border-radius: 6px;
   font-family: "SolaimanLipi";
   line-height: normal;
-  padding: 6px 8px;
+  padding: 6px 10px;
   vertical-align: middle;
-  margin: 5px 5px;
   color: #1e643f;
   box-shadow: 0 0.125rem 0.25rem #00000036;
   font-weight: 600;
-  /* font-size: 20px; */
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: 0.1s;
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
 }
 
-.basket_img {
-  width: 10%;
-  display: flex;
-  align-items: flex-end;
+.basket img {
+  width: 42px;
+  vertical-align: middle;
 }
 
-.basket_img img {
-  width: 45%;
+.basket {
+  position: relative;
+  margin-left: 15px;
+  column-gap: 8px;
+
+}
+
+.basket::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 48px;
+  width: 1%;
+  height: 80%;
+  background-color: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.basket .fa-magnifying-glass {
+  height: 1.2em;
+  font-size: 17px;
+  color: #ffffff;
+  background: #1e643f;
+  ;
+  padding: 9px;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+
+.basket .fa-heart {
+  height: 1em;
+  font-size: 28px;
+  color: #000000;
+  padding-left: 10px;
   vertical-align: middle;
 }
 
 /*=========================
             all Hover styling
 =============================*/
-.nev_menu ul li a:hover {
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
   color: #1e643f;
 }
 
-.sub_menu .overly_one ul li a:hover {
-  color: #2eac69;
-}
-
-.sub_menu .overly_two ul li a:hover {
-  color: #2eac69;
-}
-
-.sub_menu .overly_three ul li a:hover {
-  color: #2eac69;
-}
-
-.login_button a:hover {
+.login_btn_bg:hover {
   color: #000;
 }
 
-.basket_img:hover img {
-  width: 55%;
+.basket img:hover {
+  scale: 1.2;
 }
 
-.sub_menu:hover .overly_one {
-  visibility: visible;
+.basket .fa-magnifying-glass:hover {
+  scale: 1.1;
 }
 
-.sub_menu:hover .overly_two {
-  visibility: visible;
-}
-
-.sub_menu:hover .overly_three {
-  visibility: visible;
+.basket .fa-heart:hover {
+  scale: 1.1;
 }
 
 /*==========================
 nav stayle end
  ============================*/
+
 
 /*==========================
 banner stayle end
@@ -524,9 +354,9 @@ banner stayle end
 
 .banner_text h1 {
   font-family: "Hind Siliguri", Sans-serif;
-  font-size: 55px;
+  font-size: 54px;
   font-weight: 700;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 .banner_text h2 {
@@ -586,6 +416,10 @@ banner stayle end
 
 .banner_section .banner_img {
   width: 50%;
+}
+
+.banner_img_f {
+  display: none;
 }
 
 .banner_section .banner_img img {
@@ -836,9 +670,10 @@ hr.center-diamond:before {
 }
 
 .slide_button_section {
-  width: 10%;
+  width: 20%;
   height: auto;
   border: 0;
+  background-color: rgb(0 0 0 / 2%);
 }
 
 .button_slider a {
@@ -863,7 +698,7 @@ hr.center-diamond:before {
 .button_slider p {
   display: inline-block;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 7%;
 }
 
@@ -945,7 +780,7 @@ hr.center-diamond:before {
 .slider_container {
   position: relative;
   width: 100%;
-  height: 45rem;
+  height: 44rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -955,7 +790,7 @@ hr.center-diamond:before {
   padding: 20px 10px;
 }
 
-@keyframes sliding {
+/* @keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -991,7 +826,7 @@ hr.center-diamond:before {
   100% {
     transform: translateX(-400%);
   }
-}
+} */
 
 .slider {
   position: relative;
@@ -1015,7 +850,7 @@ hr.center-diamond:before {
 }
 
 .wrepper_inner {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid rgb(240, 239, 239);
   box-shadow: 2px 2px 5px rgb(236, 236, 236);
@@ -1050,6 +885,7 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
+
 .img_box_four {
   width: 100%;
   height: 18rem;
@@ -1058,6 +894,7 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
+
 .img_box_five {
   width: 100%;
   height: 18rem;
@@ -1066,6 +903,7 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
+
 .img_box_six {
   width: 100%;
   height: 18rem;
@@ -1249,7 +1087,7 @@ hr.center-diamond:before {
   font-size: 20px;
   margin-right: 10px;
 }
-  
+
 .curse_inrole {
   width: 100%;
   height: auto;
@@ -1393,7 +1231,7 @@ hover stayling
 
 .about_button a:hover {
   color: #ffffff;
-  background-color:#000000;
+  background-color: #000000;
 }
 
 .widget-content-box:hover {
@@ -1425,7 +1263,7 @@ Plan section stayling start
   font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"slnt" 0;
+  font-variation-settings: "slnt" 0;
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
@@ -1463,7 +1301,7 @@ Plan section stayling start
   font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"slnt" 0;
+  font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -1533,7 +1371,7 @@ Plan section stayling start
   font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"slnt" 0;
+  font-variation-settings: "slnt" 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 0.5em;
@@ -1560,9 +1398,10 @@ Plan section stayling start
   font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"slnt" 0;
+  font-variation-settings: "slnt" 0;
   font-size: 24px;
 }
+
 .plan_last_text_box {
   width: 100%;
   display: flex;
@@ -2037,23 +1876,26 @@ contact Section start
   margin-left: 100px;
   border-radius: 8px;
 }
-.contact_section_inner_left{
+
+.contact_section_inner_left {
   display: flex;
   flex-direction: column;
   align-items: center;
- justify-content: center;
+  justify-content: center;
   padding-right: 80px;
   position: relative;
 }
-.contact_section_inner_left::after{
+
+.contact_section_inner_left::after {
   width: 1%;
   height: 80%;
   top: 10%;
   right: 0;
   position: absolute;
   content: "";
- background-color:#00A89C;
+  background-color: #00A89C;
 }
+
 .contact_section .container_flex {
   display: flex;
   flex-direction: row;
@@ -2061,6 +1903,7 @@ contact Section start
   align-items: center;
   align-content: center;
 }
+
 .contact_section_inner_left h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
@@ -2089,14 +1932,15 @@ contact Section start
   transition: all 0.3s;
 }
 
-.contact_section_inner_right{
+.contact_section_inner_right {
   display: flex;
   flex-direction: column;
   align-items: center;
- justify-content: center;
+  justify-content: center;
   padding-right: 80px;
   position: relative;
 }
+
 .contact_section_inner_right h2 {
   font-family: "Hind Siliguri", Sans-serif;
   font-size: 40px;
@@ -2109,10 +1953,11 @@ contact Section start
   color: #ffb700;
 }
 
-.contact_section_inner_right_inner img{
-height: 47px;
+.contact_section_inner_right_inner img {
+  height: 47px;
 }
-.tel_jon_btn{
+
+.tel_jon_btn {
   display: inline-block;
   background-color: #20a0e1;
   line-height: 1em;
@@ -2127,10 +1972,12 @@ height: 47px;
   border-radius: 8px;
   transition: all 0.3s;
 }
+
 .contact_section_inner_left a:hover {
   background-color: #00a89c;
   color: #ffffff;
 }
+
 .contact_section_inner_right_inner a:hover {
   background-color: #00a89c;
   color: #000000;
@@ -2226,7 +2073,7 @@ blog Section start
   letter-spacing: 0.02 em;
 }
 
-.blog_content_inner_one_text  {
+.blog_content_inner_one_text {
   color: #0f746d;
   transition: 0.3s;
   font-size: 18px;
@@ -2234,6 +2081,7 @@ blog Section start
   line-height: 1.5em;
   float: right;
 }
+
 .blog_content_inner_one_text .blog_button_one {
   color: #0f746d;
   transition: 0.3s;
@@ -2245,7 +2093,8 @@ blog Section start
   bottom: -76px;
   right: 35px;
 }
-.blog_button_two{
+
+.blog_button_two {
   color: #0f746d;
   transition: 0.3s;
   font-size: 18px;
@@ -2256,7 +2105,8 @@ blog Section start
   bottom: -48px;
   right: 30px;
 }
-.blog_button_tree{
+
+.blog_button_tree {
   color: #0f746d;
   transition: 0.3s;
   font-size: 18px;
@@ -2267,7 +2117,8 @@ blog Section start
   bottom: -26px;
   right: 30px;
 }
-.blog_button_four{
+
+.blog_button_four {
   color: #0f746d;
   transition: 0.3s;
   font-size: 18px;
@@ -2278,6 +2129,7 @@ blog Section start
   bottom: -75px;
   right: 30px;
 }
+
 .blog_content_inner_one_text a:hover {
   color: #00665e;
 }
@@ -2403,14 +2255,16 @@ video Section start
   margin-bottom: 0;
 }
 
-.fa-calendar-days{
+.fa-calendar-days {
   color: #00665e;
   margin-left: 20px;
   margin-right: 10px;
 }
-.meddile{
+
+.meddile {
   margin-left: 52px;
 }
+
 .video_content_inner_one_text .fa-user {
   margin-left: 10px;
   margin-right: 10px;
@@ -2466,7 +2320,7 @@ video Section start
 .video_button a {
   width: auto;
   display: inline-block;
-  background-color:#00665e;
+  background-color: #00665e;
   color: #f8f9fa;
   border-style: none;
   border-radius: 4px 4px 4px 4px;
@@ -2794,15 +2648,18 @@ footer Section strart
 .footer_content_bottom_inner_four ul li a:hover {
   color: #00a89c;
 }
+
 /* payment section start */
-.payment_section{
+.payment_section {
   width: 100%;
   height: auto;
 }
-.payment_section img{
+
+.payment_section img {
   width: 100%;
   height: 50px;
 }
+
 /* payment section end */
 
 
