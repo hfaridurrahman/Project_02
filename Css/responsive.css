@@ -23,17 +23,21 @@
         background: #0a3b1e;
         padding: 3px;
     }
+
     .scrolig_bar {
         width: 100%;
     }
+
     .social_icon {
         display: flex;
-         width: 100%;
+        width: 100%;
         padding-top: 2px;
     }
+
     .grating_section {
         display: none;
     }
+
     header .scrolig_section {
         background: #0a3b1e;
         padding: 2px;
@@ -46,20 +50,20 @@
 
     marquee {
         font-size: 18px;
-      }
-      
-      .social_icon {
+    }
+
+    .social_icon {
         display: flex;
         width: 35%;
         justify-content: center;
         padding-top: 2px;
-      }
-      
-      .social_icon>a>img {
+    }
+
+    .social_icon>a>img {
         width: 15px;
         margin-left: 3px;
-      }
-      
+    }
+
 
     .nav_section {
         width: 100%;
@@ -74,12 +78,12 @@
     .logo img {
         width: 23px;
         vertical-align: middle;
-        scale: 2.3;
+        scale: 2.0;
     }
 
     .logo_heading {
         display: block;
-        font-size: 2.3rem;
+        font-size: 2rem;
         font-weight: 600;
         color: #1e643f;
     }
@@ -89,9 +93,21 @@
     }
 
     .login_btn {
-        margin-left: -35px;
+        margin-left: -10px;
     }
 
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        padding-right: 0;
+    }
+    .logo  {
+        margin-right: -3rem;
+    }
     .login_btn_bg {
         padding: 2px 8px;
     }
