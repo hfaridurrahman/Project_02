@@ -24,7 +24,7 @@ ul {
 
 .wrepper {
   margin: 0 auto;
-  max-width: 1230px;
+  max-width: 1240px;
 }
 
 .container_flex {
@@ -1853,7 +1853,9 @@ mentor Section start
   text-align: justify;
   color: #000;
 }
-
+.mentor_section_inner_two{
+  width: 100%;
+}
 /*==============================================
 mentor Section end
 ===================================================== */
