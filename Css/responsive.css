@@ -205,12 +205,71 @@
     .search_section {
         display: none;
     }
-
+    .slide_section_top {
+        display: none;
+    }
+    .about_color_spase {
+       display: none;
+    }
+    .slide_section_bottom {
+       display: none;
+    }
     .curse_saction {
         padding-top: 8px;
         margin-top: 15px;
     }
-
+    .cures_mobile_section{
+        display: block;
+    }
+    .cures_mobile_section .container_flex{
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+    }
+    .cures_card {
+        width: 100%;
+    }
+    .delails_card h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 5px 0;
+        color: #2c2c2c;
+        text-align: center;
+    }
+    .course_details_time{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .course_details_time span {
+        font-size: 16px;
+        font-weight: 800;
+        color: #2c2c2c;
+    }
+    .course_details_time {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f8f9fa;
+        padding: 8px 18px;
+        margin-bottom: 8px;
+        column-gap: 8px;
+    }
+    .course_details_time .fa-circle-play {
+        font-size: 18px;
+        color: #e90a2a;
+    }
+    .course_details_time .fa-clock {
+        font-size: 18px;
+        color: #0091ff;
+    }
+    .course_details_time span {
+        font-size: 16px;
+        font-weight: 800;
+        color: #2c2c2c;
+        margin-left: 5px;
+    }
     .about_us {
         margin: 10px 10px;
         padding: 13px 4px;
