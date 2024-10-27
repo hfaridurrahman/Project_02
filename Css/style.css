@@ -1094,7 +1094,9 @@ hr.center-diamond:before {
   margin-top: 10px;
   text-align: start;
 }
-
+.cures_mobile_section{
+  display: none;
+}
 
 /*============================= 
                 hover stayling
