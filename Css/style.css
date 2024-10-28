@@ -790,7 +790,7 @@ hr.center-diamond:before {
   padding: 20px 10px;
 }
 
-/* @keyframes sliding {
+@keyframes sliding {
   0% {
     transform: translateX(0%);
   }
@@ -826,7 +826,7 @@ hr.center-diamond:before {
   100% {
     transform: translateX(-400%);
   }
-} */
+}
 
 .slider {
   position: relative;
@@ -855,12 +855,13 @@ hr.center-diamond:before {
   border: 1px solid rgb(240, 239, 239);
   box-shadow: 2px 2px 5px rgb(236, 236, 236);
   padding: 1rem;
+  background-color: #d4d4d4ed;
 }
 
 .img_box_one {
   width: 100%;
   height: 18rem;
-  background: url(../images/adonik_poddotite_quran\ \(1280\ x\ 905\ px\)-1.png);
+  background: url(../images/Course_1-Adhonik_Poddotite_Quran_Shikhi_Poster.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -872,7 +873,7 @@ hr.center-diamond:before {
 .img_box_two {
   width: 100%;
   height: 18rem;
-  background: url(../images/কুরআনি\ আরবি\ শিখি\ \ \(1250\ x\ 905\ px\)-1.png) no-repeat;
+  background: url(../images/Course_2_Qurani-Arbi_Shikhi.svg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -880,7 +881,7 @@ hr.center-diamond:before {
 .img_box_tree {
   width: 100%;
   height: 18rem;
-  background: url(../images/কুরআন\ অনুধাবন\ ওয়েবিনার\ সিরিজ\ পোস্টার.png) no-repeat;
+  background: url(../images/Course_3_Quran_Onodhabon_Webinar_Series_Poster.svg) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -889,7 +890,7 @@ hr.center-diamond:before {
 .img_box_four {
   width: 100%;
   height: 18rem;
-  background: url(../images/সহজে\ শিখি\ তাজভীদুল\ কুরআন.png) no-repeat;
+  background: url(../images/Course_4_Shohoje_Shikhi_Tazweedul_Quran.svg) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -898,7 +899,7 @@ hr.center-diamond:before {
 .img_box_five {
   width: 100%;
   height: 18rem;
-  background: url(../images/অর্থ\ সহ\ নামাজ\ শিখি.png) no-repeat;
+  background: url(../images/Course_5_Ortho_Shoho_Namaz_Shikhi.svg) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -907,16 +908,84 @@ hr.center-diamond:before {
 .img_box_six {
   width: 100%;
   height: 18rem;
-  background: url(../images/বি\ প্রোডাক্টিভ\ ফ্রম\ ফজর.png) no-repeat;
+  background: url(../images/Course_6_Productive_Life_With_Islam.svg) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
 }
-
+.img_box_seven{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Free_Course_1_Farz_poriman_ILM_Shikhi.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_eight{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Free_Course_2_Tarzomatul_Quran_Webinar_Series.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_nine{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Free_Course_3-ILM_Orjoner_Adob.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_ten{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Free_Course_2_Tarzomatul_Quran_Webinar_Series.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_eleven{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Course_2_Qurani-Arbi_Shikhi.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img_box_twelve{
+  width: 100%;
+  height: 18rem;
+  background: url(../images/Course_3_Quran_Onodhabon_Webinar_Series_Poster.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.carousel-indicators [data-bs-target] {
+	width: 45px;
+	height: 7px;
+	background-color: #000;
+}
+.carousel-indicators {
+	right: 37px;
+	bottom: -40px;
+}
+.carousel-control-prev {
+	left: 5px;
+}
+.fa-chevron-left{
+  font-size: 30px;
+  color: #000;
+}
+.fa-chevron-right{
+  font-size: 30px;
+  color: #000;
+}
 .content_box {
   text-align: center;
   border: 1px solid #0303033b;
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .content_box img {
@@ -965,6 +1034,18 @@ hr.center-diamond:before {
   font-weight: 600;
   font-size: 20px;
   color: #2c2c2c;
+  margin-left: 85px;
+}
+.monthly_price  {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2c2c2c;
+  margin-left: 50px;
+}
+.update_price_free {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff0000;
   margin-left: 85px;
 }
 
@@ -1081,11 +1162,12 @@ hr.center-diamond:before {
   justify-content: flex-end;
 }
 
-.slide_section_bottom .fa-user {
+.student_details_user .fa-user {
   margin-left: 45px;
   font-weight: 700;
   font-size: 20px;
   margin-right: 10px;
+  color: green;
 }
 
 .curse_inrole {
@@ -1473,7 +1555,7 @@ Testimonial Section start
 .Testimonial_section {
   width: 100%;
   height: auto;
-  padding: 0;
+  padding: 5px 0;
   background-color: #ffffff;
   margin: 0;
   transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -1573,7 +1655,24 @@ Testimonial Section start
   font-size: 20px;
   font-weight: 600;
 }
-
+.card-body {
+	flex: 1 1 auto;
+	padding: 1rem 1.2rem;
+}
+.card_bg_one {
+	background-color: #ff7f4e17;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	margin: 10px 10px 10px 10px;
+	--e-column-margin-right: 10px;
+	--e-column-margin-left: 10px;
+	padding: 25px 40px 25px 40px;
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+	flex-wrap: wrap;
+	 align-content: center;
+}
 .contents-wraper .indicators {
   position: absolute;
   bottom: 30px;
@@ -2241,37 +2340,37 @@ video Section start
 }
 
 .video_content_inner_one_text h4 {
-  color: #182d41;
+  color: #000000;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.5em;
   margin: 10px 0 20px 0;
   letter-spacing: 0.02em;
 }
 
-.video_content_inner_one_text {
+.video_content_inner_one_text__info {
+  display: flex;
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 1.5em;
   text-align: justify;
   margin-bottom: 0;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-calendar-days {
   color: #00665e;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
-.meddile {
-  margin-left: 52px;
-}
 
-.video_content_inner_one_text .fa-user {
-  margin-left: 10px;
-  margin-right: 10px;
+
+.video_content_inner_one_text__info .fa-user {
+  margin-right: 8px;
   color: #00665e;
 }
 
@@ -2425,8 +2524,6 @@ footer Section strart
   transition: all 0.3s;
 }
 
-.footer_content_top_inner_one_button {}
-
 .footer_content_top_inner_one_button:hover a {
   background-color: #00665e;
   color: #ffffff;
@@ -2550,7 +2647,7 @@ footer Section strart
 
 .footer_content_bottom_inner_two h2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 1.8em;
   text-align: center;
@@ -2595,7 +2692,7 @@ footer Section strart
 
 .footer_content_bottom_inner_tree h2 {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 1.8em;
   text-align: center;
