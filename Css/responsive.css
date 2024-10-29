@@ -112,12 +112,16 @@
         width: 20%;
         margin-right: -3rem;
     }
-
+    .logo_heading {
+        margin-top: 2px;
+    }
     .login_btn_bg {
         padding: 2px 8px;
         width: 100%;
     }
-
+    .basket_btn {
+        margin-left: 15%;
+    }
     .basket {
         position: relative;
         margin-left: 45px;
@@ -178,11 +182,10 @@
         font-size: 16px;
         font-weight: 300;
         line-height: 1.3em;
-        text-align: start;
         width: 100%;
-        margin: 0 20px;
+        margin: 0; 
+        text-align: justify;
     }
-
     .banner_button {
         padding-top: 10px;
         justify-content: center;
@@ -216,9 +219,18 @@
     .about_color_spase {
         display: none;
     }
-
+/* cours section */
     .cours_slide_section {
         display: none;
+    }
+    .wrepper_inner {
+        margin: 20px auto;
+    }
+    hr.center-diamond {
+        width: 50%;
+    }
+    hr.center-diamond::before {
+        top: -8px;
     }
     .button_fixed{
         display: none;
@@ -233,9 +245,9 @@
     }
 
     .cures_mobile_section .container_flex {
-        flex-direction: column;
-        row-gap: 10px;
-        justify-content: center;
+        flex-direction: row;
+        column-gap: 10px;
+        justify-content: flex-start;
     }
 
     .cures_card {
@@ -255,7 +267,7 @@
     .img_box_eleven,
     .img_box_twelve {
         width: 100%;
-        height: 10rem;
+        height: 15rem;
     }
     .delails_card h4 {
         font-size: 20px;
@@ -277,7 +289,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #f8f9fa;
         padding: 8px 15px;
         margin-bottom: 8px;
         column-gap: 8px;
@@ -297,17 +308,20 @@
         font-size: 16px;
         font-weight: 800;
         color: #2c2c2c;
-        margin-left: 5px;
+        margin-left: -5px;
     }
 
     .student_details_user .fa-user {
         margin-left: 0;
         font-weight: 700;
         font-size: 20px;
-        margin-right: 10px;
+        margin-right: 5px;
         color: green;
     }
-
+    .update_price_section {
+        display: inline;
+        margin-left: 8px;
+    }
     .update_price {
         margin-left: 0;
     }
@@ -315,7 +329,12 @@
     .older_price {
         margin-left: 0;
     }
-
+    .monthly_price {
+        font-weight: 600;
+        font-size: 17px;
+        color: #2c2c2c;
+        margin-left: -5px;
+    }
     .update_price_free {
         margin-left: 0;
     }
@@ -328,10 +347,15 @@
         margin: 10px 10px;
         padding: 13px 4px;
     }
-
+    .about_heading {
+       display: flex;
+       justify-content: center;
+    }
     .about_heading h2 {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 1.2em;
+        width: 90%;
+        text-align: center;
     }
 
     .about_us .container_flex {
@@ -339,7 +363,6 @@
         margin-bottom: 30px;
         flex-direction: column;
     }
-
     .Plan_section {
 
         padding: 10px 0;
@@ -354,7 +377,7 @@
     .Plan_heading h3 {
         color: #192a3d;
         font-family: "Jost", Sans-serif;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         line-height: 1.2em;
         text-align: center;
@@ -366,7 +389,7 @@
         width: 100%;
         font-size: 18px;
         line-height: 25px;
-        text-align: start;
+        text-align: justify;
         padding: 0 6px;
 
     }
@@ -390,10 +413,12 @@
 
     .coment {
         bottom: -6%;
-        left: 2%;
-        font-size: 15px;
+        left: 4%;
+        font-size: 13px;
         font-weight: 300;
         padding: 0;
+        color: green;
+        font-family: 'SolaimanLipi', Sans-serif;
     }
 
     .indicators {
@@ -403,11 +428,16 @@
     .counter_section_inner {
         padding: 8px;
     }
-
+    .card_bg_one {
+        align-content: center;
+    }
     .counter_heading_box h2 {
         font-size: 38px;
     }
-
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 2.2rem;
+    }
     .counter_heading_text {
         font-size: 15px;
         padding: 0;
@@ -452,7 +482,7 @@
     }
 
     .mentor_heading_text {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 1.5em;
         padding: 8px 0;
@@ -463,6 +493,9 @@
     .counter_section {
         margin: 0;
         padding: 20px 0;
+    }
+    .mentor_heading_box h2 {
+        font-size: 37px;
     }
 
     .mentor_heading_box p {
@@ -482,7 +515,6 @@
         padding: 15px 0;
 
     }
-
     .contact_section_inner {
 
         padding: 0;
@@ -490,12 +522,12 @@
     }
 
     .contact_section_inner_left h2 {
-        font-size: 33px;
+        font-size: 37px;
         text-align: center;
     }
 
     .contact_section_inner_right h2 {
-        font-size: 30px;
+        font-size: 34px;
         text-align: center;
     }
 
@@ -541,7 +573,9 @@
         flex-direction: column;
         column-gap: 10px;
     }
-
+    .blog_content_inner_one_text h4 {
+        font-size: 20px;
+    }
     .video_section {
         margin: 0;
         padding: 0;
@@ -555,7 +589,10 @@
     .video_heading {
         padding: 0;
     }
-
+    .video_content_inner_one_text h4 {
+        font-size: 18px;
+        margin: 0px 0 3px 0;
+    }
     .video_heading h2 {
         font-size: 36px;
         margin: 0;
