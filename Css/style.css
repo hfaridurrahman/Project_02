@@ -260,7 +260,9 @@ nav stayle start
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-
+.basket_btn{
+  margin-left: 5px;
+}
 .basket img {
   width: 42px;
   vertical-align: middle;
