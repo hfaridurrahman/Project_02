@@ -667,10 +667,10 @@ hr.center-diamond:before {
   padding-top: 0;
   position: relative;
 }
-
 .button_fixed {
   margin-left: 70%;
 	width: 30%;
+  margin-bottom: -45px;
 	text-align: end;
 	height: 60px;
 	vertical-align: middle;
