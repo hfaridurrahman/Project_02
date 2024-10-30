@@ -591,7 +591,7 @@ banner stayle end
   background-color: #e8f7f5;
   padding-top: 20px;
   margin-top: 35px;
-  padding-bottom: 22px;
+  padding-bottom: 0;
 }
 
 .text_center {
@@ -667,28 +667,37 @@ hr.center-diamond:before {
   padding-top: 0;
   position: relative;
 }
+.carousel-inner{
+  position: relative;
+}
+.carousel-item{
+  margin-top: 0;
+  z-index: -1;
+}
 .button_fixed {
-  margin-left: 70%;
-	width: 30%;
-  margin-bottom: -45px;
+  position: absolute;
+  right:0;
+  top: 0;
+	width: auto;
+  margin-bottom: 2px;
 	text-align: end;
-	height: 60px;
+	height: auto;
 	vertical-align: middle;
 }
 .button_fixed a {
   width: auto;
   display: inline-block;
   border-style: none;
-  border-radius: 4px 4px 4px 4px;
+  border-radius: 4px;
   padding: 10px 30px;
   transition: all 0.3s ease 0s;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Hind Siliguri", Sans-serif;
   background-color: #005885;
   color: #f8f9fa;
-  box-shadow: 0px 15px 18px rgb(0 91 137);
-  -webkit-box-shadow: 0px 15px 18px rgb(0 91 137);
+  /* box-shadow: 0px 15px 18px rgb(0 91 137);
+  -webkit-box-shadow: 0px 15px 18px rgb(0 91 137); */
 }
 
 .button_fixed a img {
@@ -702,18 +711,17 @@ hr.center-diamond:before {
 .slide_title {
   display: inline-block;
   padding: 10px 50px;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Hind Siliguri", Sans-serif;
+  border-radius: 4px;
   transition: all 0.3s ease 0s;
   border: none;
-  outline: none;
   background-color: #005885;
   color: #f8f9fa;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   transition: all 0.3s;
 }
-
 .cures_card {
   width: 33.33%;
 }
