@@ -73,7 +73,6 @@ header .scrolig_section {
   width: 20%;
   display: flex;
   align-items: center;
-
 }
 
 .grating_section p {
@@ -260,9 +259,11 @@ nav stayle start
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-.basket_btn{
+
+.basket_btn {
   margin-left: 5px;
 }
+
 .basket img {
   width: 42px;
   vertical-align: middle;
@@ -461,12 +462,12 @@ banner stayle end
 }
 
 .search_area form {
-  width: 80%;
-  margin: 0 350px;
+  width: 100%;
+  margin: 0;
   padding: 1%;
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: 12%;
 }
 
 .search_area input {
@@ -590,7 +591,7 @@ banner stayle end
   background-color: #e8f7f5;
   padding-top: 20px;
   margin-top: 35px;
-  position: relative;
+  padding-bottom: 22px;
 }
 
 .text_center {
@@ -653,17 +654,27 @@ hr.center-diamond:before {
   box-sizing: border-box;
 }
 
+/*--========================================= 
+  curse  saction End
+==============================================*/
+/*--========================================= 
+  cures  slider start
+==============================================*/
+
+.cours_slide_section {
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding-top: 0;
+  position: relative;
+}
 
 .button_fixed {
-	position: absolute;
-	right: 13%;
-	top: 1%;
+  margin-left: 70%;
 	width: 30%;
 	text-align: end;
 	height: 60px;
 	vertical-align: middle;
 }
-
 .button_fixed a {
   width: auto;
   display: inline-block;
@@ -688,28 +699,6 @@ hr.center-diamond:before {
   margin-left: 5px;
 }
 
-/*hover styling*/
-.slide_title:hover {
-  background-color: #f8f9fa;
-  color: #00665e;
-}
-
-.button_fixed a:hover {
-  background-color: #f8f9fa;
-  color: #00665e;
-}
-
-/*--========================================= 
-  curse  saction End
-==============================================*/
-/*--========================================= 
-  cures  slider start
-==============================================*/
-
-.cours_slide_section {
-  width: 100%;
-  margin: 30px 0 0 0;
-}
 .slide_title {
   display: inline-block;
   padding: 10px 50px;
@@ -721,8 +710,8 @@ hr.center-diamond:before {
   outline: none;
   background-color: #005885;
   color: #f8f9fa;
- margin-bottom: 5px;
- transition: all 0.3s;
+  margin-bottom: 5px;
+  transition: all 0.3s;
 }
 
 .cures_card {
@@ -793,7 +782,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_seven{
+
+.img_box_seven {
   width: 100%;
   height: 18rem;
   background: url(../images/Free_Course_1_Farz_poriman_ILM_Shikhi.svg) no-repeat;
@@ -801,7 +791,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_eight{
+
+.img_box_eight {
   width: 100%;
   height: 18rem;
   background: url(../images/Free_Course_2_Tarzomatul_Quran_Webinar_Series.svg) no-repeat;
@@ -809,7 +800,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_nine{
+
+.img_box_nine {
   width: 100%;
   height: 18rem;
   background: url(../images/Free_Course_3-ILM_Orjoner_Adob.svg) no-repeat;
@@ -817,7 +809,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_ten{
+
+.img_box_ten {
   width: 100%;
   height: 18rem;
   background: url(../images/Free_Course_2_Tarzomatul_Quran_Webinar_Series.svg) no-repeat;
@@ -825,7 +818,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_eleven{
+
+.img_box_eleven {
   width: 100%;
   height: 18rem;
   background: url(../images/Course_2_Qurani-Arbi_Shikhi.svg) no-repeat;
@@ -833,7 +827,8 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
-.img_box_twelve{
+
+.img_box_twelve {
   width: 100%;
   height: 18rem;
   background: url(../images/Course_3_Quran_Onodhabon_Webinar_Series_Poster.svg) no-repeat;
@@ -841,34 +836,41 @@ hr.center-diamond:before {
   background-size: cover;
   position: relative;
 }
+
 .carousel-indicators [data-bs-target] {
-	width: 45px;
-	height: 7px;
-	background-color: #000;
+  width: 45px;
+  height: 7px;
+  background-color: #000;
 }
+
 .carousel-indicators {
-	right: 37px;
-	bottom: -13%;
+  right: 37px;
+  bottom: -13%;
   z-index: 0;
 }
+
 .carousel-indicators [data-bs-target] {
-	width: 60px;
-	height: 10px;
-	background-color: #000;
-	border-radius: 50px;
-  padding:  3px;
+  width: 60px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50px;
+  padding: 3px;
 }
+
 .carousel-control-prev {
-	left: 5px;
+  left: 5px;
 }
-.fa-chevron-left{
+
+.fa-chevron-left {
   font-size: 30px;
   color: #000;
 }
-.fa-chevron-right{
+
+.fa-chevron-right {
   font-size: 30px;
   color: #000;
 }
+
 .content_box {
   text-align: center;
   border: 1px solid #0303033b;
@@ -924,12 +926,14 @@ hr.center-diamond:before {
   color: #2c2c2c;
   margin-left: 85px;
 }
-.monthly_price  {
+
+.monthly_price {
   font-weight: 600;
   font-size: 20px;
   color: #2c2c2c;
   margin-left: 50px;
 }
+
 .update_price_free {
   font-weight: 700;
   font-size: 20px;
@@ -1063,7 +1067,8 @@ hr.center-diamond:before {
   margin-top: 10px;
   text-align: start;
 }
-.cures_mobile_section{
+
+.cures_mobile_section {
   display: none;
 }
 
@@ -1073,6 +1078,16 @@ hr.center-diamond:before {
 .delails_card a:hover {
   background-color: #8578001e;
   color: #000;
+}
+
+.slide_title:hover {
+  background-color: #f8f9fa;
+  color: #00665e;
+}
+
+.button_fixed a:hover {
+  background-color: #f8f9fa;
+  color: #00665e;
 }
 
 /*--========================================= 
@@ -1459,11 +1474,11 @@ Testimonial Section start
 .container .contents-wraper {
   width: 70%;
   min-height: inherit;
-  margin: 30px auto;
+  margin: 10px auto;
   text-align: center;
 }
 
-.contents-wraper .header h1 {
+.contents-wraper .test_header h1 {
   position: relative;
   font-size: 40px;
   /* text-transform: uppercase; */
@@ -1473,7 +1488,7 @@ Testimonial Section start
   font-family: "Hind Siliguri", Sans-serif;
 }
 
-.contents-wraper .header h1::before {
+.contents-wraper .test_header h1::before {
   content: '';
   width: 90%;
   height: 5px;
@@ -1542,24 +1557,41 @@ Testimonial Section start
   font-size: 20px;
   font-weight: 600;
 }
+
+.testimonial_coment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.coment {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00665e;
+}
+
 .card-body {
-	flex: 1 1 auto;
-	padding: 1rem 1.2rem;
+  flex: 1 1 auto;
+  padding: 1rem 1.2rem;
 }
+
 .card_bg_one {
-	background-color: #ff7f4e17;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-	transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-	margin: 10px 10px 10px 10px;
-	--e-column-margin-right: 10px;
-	--e-column-margin-left: 10px;
-	padding: 25px 40px 25px 40px;
-	border-radius: 10px;
-	position: relative;
-	width: 100%;
-	flex-wrap: wrap;
-	 align-content: center;
+  background-color: #ff7f4e17;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 25px 40px 25px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
 }
+
 .contents-wraper .indicators {
   position: absolute;
   bottom: 30px;
@@ -1621,43 +1653,6 @@ Testimonial Section start
   to {
     left: 0%;
   }
-}
-
-.coment {
-  width: 100%;
-  position: absolute;
-  bottom: -5%;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 22px;
-  font-weight: 600;
-  padding: 5px;
-  color: #00a89c;
-  font-family: "Hind Siliguri", Sans-serif;
-}
-
-@media(max-width: 550px) {
-  .container .contents-wraper {
-    width: 90%;
-  }
-
-  .contents-wraper .header h1 {
-    font-size: 32px;
-  }
-
-  .testRow .testItem h3 {
-    font-size: 26px;
-  }
-
-  .testRow .testItem p {
-    font-size: 16px;
-    letter-spacing: initial;
-    line-height: initial;
-  }
-
 }
 
 /* ========================
@@ -1834,22 +1829,25 @@ mentor Section start
 }
 
 .mentor_heading_text {
-	font-size: 21px;
-	font-weight: 500;
-	line-height: 1.5em;
-	padding: 8px 0;
-	text-align: justify;
-	color: #000;
-	width: 68%;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 8px 0;
+  text-align: justify;
+  color: #000;
+  width: 68%;
 }
+
 .mentor_section_inner_two {
-	width: 100%;
-	height:200px;
+  width: 100%;
+  height: 200px;
 }
+
 .mentor_section_inner_two iframe {
-	width: 65%;
-	height: 100%;
+  width: 65%;
+  height: 100%;
 }
+
 /*==============================================
 mentor Section end
 ===================================================== */
