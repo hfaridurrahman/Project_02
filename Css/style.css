@@ -671,8 +671,7 @@ hr.center-diamond:before {
   position: relative;
 }
 .carousel-item{
-  margin-top: 0;
-  z-index: -1;
+  margin-top: 30px;
 }
 .button_fixed {
   position: absolute;
